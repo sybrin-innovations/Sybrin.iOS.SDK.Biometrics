@@ -1,0 +1,11 @@
+framework module Sybrin_iOS_Biometrics {
+  umbrella header "Sybrin_iOS_Biometrics.h"
+
+  export *
+  module * { export * }
+}
+
+module Sybrin_iOS_Biometrics.Swift {
+    header "Sybrin_iOS_Biometrics-Swift.h"
+    requires objc
+}
