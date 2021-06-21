@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
 // swift-module-flags: -target arm64-apple-ios12.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Sybrin_iOS_Biometrics
 import AVFoundation
+import CommonCrypto
 import Foundation
 import MLKit
 import Swift
@@ -55,6 +56,7 @@ import UIKit
   @objc final public var overlayBlurStyle: UIKit.UIBlurEffect.Style
   @objc final public var overlayBlurIntensity: CoreGraphics.CGFloat
   @objc final public var cameraPosition: AVFoundation.AVCaptureDevice.Position
+  @objc final public var environmentKey: Swift.String
   @objc final public var overlayBrandingTitleText: Swift.String
   @objc final public var overlayBrandingTitleColor: UIKit.UIColor
   @objc final public var overlayBrandingSubtitleText: Swift.String
@@ -62,6 +64,7 @@ import UIKit
   @objc final public var enableBackButton: Swift.Bool
   @objc final public var enableSwipeRightGesture: Swift.Bool
   @objc final public var showFlashButton: Swift.Bool
+  @objc final public var correlationID: Swift.String?
   @objc final public var saveImages: Swift.Bool
   @objc public init(license: Swift.String)
   @objc deinit
@@ -299,4 +302,16 @@ import UIKit
   final public func encode(to encoder: Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
+}
+public struct Environment : Swift.Codable {
+  public var faceCompareURL: Swift.String?
+  public var facialRecognitionUploadURL: Swift.String?
+  public var facialRecognitionDownloadURL: Swift.String?
+  public var passiveLivenessAuthorizeURL: Swift.String?
+  public var passiveLivenessPhotoURL: Swift.String?
+  public var passiveLivenessUsername: Swift.String?
+  public var passiveLivenessAPIKey: Swift.String?
+  public init()
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
