@@ -303,15 +303,3 @@ import UIKit
   @objc override dynamic public init()
   @objc deinit
 }
-public struct Environment : Swift.Codable {
-  public var faceCompareURL: Swift.String?
-  public var facialRecognitionUploadURL: Swift.String?
-  public var facialRecognitionDownloadURL: Swift.String?
-  public var passiveLivenessAuthorizeURL: Swift.String?
-  public var passiveLivenessPhotoURL: Swift.String?
-  public var passiveLivenessUsername: Swift.String?
-  public var passiveLivenessAPIKey: Swift.String?
-  public init()
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
-}
