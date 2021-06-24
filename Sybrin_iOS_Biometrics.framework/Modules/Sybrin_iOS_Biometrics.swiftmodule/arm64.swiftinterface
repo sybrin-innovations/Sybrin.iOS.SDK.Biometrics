@@ -65,6 +65,7 @@ import UIKit
   @objc final public var enableSwipeRightGesture: Swift.Bool
   @objc final public var showFlashButton: Swift.Bool
   @objc final public var correlationID: Swift.String?
+  @objc final public var displayToastMessages: Swift.Bool
   @objc final public var saveImages: Swift.Bool
   @objc public init(license: Swift.String)
   @objc deinit

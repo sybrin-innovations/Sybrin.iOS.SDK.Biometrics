@@ -415,6 +415,7 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics29SybrinBiometricsConfiguration")
 @property (nonatomic) BOOL enableSwipeRightGesture;
 @property (nonatomic) BOOL showFlashButton;
 @property (nonatomic, copy) NSString * _Nullable correlationID;
+@property (nonatomic) BOOL displayToastMessages;
 @property (nonatomic) BOOL saveImages;
 - (nonnull instancetype)initWithLicense:(NSString * _Nonnull)license OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

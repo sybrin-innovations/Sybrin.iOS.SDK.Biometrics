@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/Sybrin_iOS_Biometrics-Swift.h</key>
 		<data>
-		ImGUpfDktUXx4uGcugesuww/pu4=
+		RywCyhyRpgJBq/DV0uM3Fa00Hik=
 		</data>
 		<key>Headers/Sybrin_iOS_Biometrics.h</key>
 		<data>
@@ -78,15 +78,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		us08ISa70R5re0/KQ1OeU007F9Q=
+		F9M7QT59q+Lgtt7pQRZ0+zXv9NA=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		/PQYfi98fuVq6l3o5B/DBG/WrTg=
+		i7MGXOq5AS9fkdwzRIycP0d+MgA=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		/PQYfi98fuVq6l3o5B/DBG/WrTg=
+		i7MGXOq5AS9fkdwzRIycP0d+MgA=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		u9h4WIBZuL0msW8iW5dCHkmERwU=
+		RVse3tHfdsNRoUwx+JUPO70Mv9Q=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		v2Ra/MWYITXnqTxoKF3eE04ou8U=
+		3DLvI96rjHckV33PBQucjbCId34=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		u9h4WIBZuL0msW8iW5dCHkmERwU=
+		RVse3tHfdsNRoUwx+JUPO70Mv9Q=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		v2Ra/MWYITXnqTxoKF3eE04ou8U=
+		3DLvI96rjHckV33PBQucjbCId34=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>SybrinBiometrics.storyboardc/BiometricsVC.nib</key>
 		<data>
-		JO7G3aORTNv3L2TCno7585OFIaM=
+		g5XZt7uIprs3FidaKnV1V7EYJYc=
 		</data>
 		<key>SybrinBiometrics.storyboardc/Info.plist</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>SybrinBiometrics.storyboardc/mCA-DV-fR1-view-aqL-2L-qqY.nib</key>
 		<data>
-		/cjrl0FsY4BEAHMG3faJQHhCKsE=
+		J6vSCm2DSVwnS9EEiBWewqaJJME=
 		</data>
 		<key>det1.bin</key>
 		<data>
@@ -279,7 +279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NKITAtLbdfbDoEvyvJM5DrouTWnvnj+nYEXF6wwFqwA=
+			eKo7UyuD5qn3zNjfZZbJcfYU1+cwIDMZcZYH1LuJMfA=
 			</data>
 		</dict>
 		<key>Headers/Sybrin_iOS_Biometrics.h</key>
@@ -293,14 +293,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lUiJEBZzgyTwn4HrCp047rNpdwYlVkPZ9KgnzUiEQso=
+			6dqdwhM+QCEOBzVkpN03AVhf/nWwYAbtKh68UKFwqKM=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lUiJEBZzgyTwn4HrCp047rNpdwYlVkPZ9KgnzUiEQso=
+			6dqdwhM+QCEOBzVkpN03AVhf/nWwYAbtKh68UKFwqKM=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -314,14 +314,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+/tNfgcfW74gVKzAEUZHrWeBDjFbaWYY70vIRnsOgQ=
+			jShWwvsaR95zmconFySscskzGI5Ywlavaa572MW1nUQ=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XuN4bM+QIvkQMe3hda8J7ceC/HpuzJlQGHoFDrLl3LQ=
+			SiFbXvM2Bup24AkfGphG04e0Gx/Ca/DegSKvl6hhgbI=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftdoc</key>
@@ -335,14 +335,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+/tNfgcfW74gVKzAEUZHrWeBDjFbaWYY70vIRnsOgQ=
+			jShWwvsaR95zmconFySscskzGI5Ywlavaa572MW1nUQ=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XuN4bM+QIvkQMe3hda8J7ceC/HpuzJlQGHoFDrLl3LQ=
+			SiFbXvM2Bup24AkfGphG04e0Gx/Ca/DegSKvl6hhgbI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -356,7 +356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EiviEFx535h7VVgzWuB3RVOxSgy3sXuDJVW+sCe6puU=
+			mVNBtCHlGRH5YAsCgiPgyJqj70nDviz15THQ/0nWb+s=
 			</data>
 		</dict>
 		<key>SybrinBiometrics.storyboardc/Info.plist</key>
@@ -370,7 +370,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9TUdDHADxrggIFzSAvzCdkBoXxLzy6X8Hzgo8t3KuBc=
+			OsPxFgnHlwdKHaL6FuWjhJ9C8FkKp71G+gNkcxR+k20=
 			</data>
 		</dict>
 		<key>det1.bin</key>
