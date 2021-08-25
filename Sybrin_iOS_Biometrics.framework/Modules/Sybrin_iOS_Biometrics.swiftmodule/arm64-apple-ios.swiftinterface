@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target arm64-apple-ios12.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Sybrin_iOS_Biometrics
 import AVFoundation
 import CommonCrypto
@@ -10,8 +10,8 @@ import Swift
 import Sybrin_iOS_Common
 import UIKit
 @objc @_inheritsConvenienceInitializers final public class BlinkLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc final public class FacialComparisonResult : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public var result: Swift.Bool {
@@ -40,8 +40,8 @@ import UIKit
   }
   @objc final public func saveImages()
   final public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc final public class SybrinBiometricsConfiguration : ObjectiveC.NSObject, Sybrin_iOS_Common.SybrinCommonConfiguration {
   @objc final public var license: Swift.String {
@@ -68,12 +68,12 @@ import UIKit
   @objc final public var displayToastMessages: Swift.Bool
   @objc final public var saveImages: Swift.Bool
   @objc public init(license: Swift.String)
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class SmileLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc final public class FacialComparisonModel : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public var averageConfidence: Swift.Double {
@@ -90,16 +90,16 @@ import UIKit
   }
   @objc final public func saveImages()
   final public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class LookUpLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class TurnHeadRightLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc final public class FacialRecognitionInitializationModel : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public var identifier: Swift.String {
@@ -112,8 +112,8 @@ import UIKit
     @objc get
   }
   final public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc final public class FacialRecognitionModel : Sybrin_iOS_Biometrics.BiometricsModel {
   @objc final public var identifier: Swift.String {
@@ -136,8 +136,8 @@ import UIKit
   }
   @objc override final public func saveImages()
   override final public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class LivenessDetectionModel : Sybrin_iOS_Biometrics.BiometricsModel {
   @objc final public var isAlive: Swift.Bool {
@@ -148,12 +148,12 @@ import UIKit
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class TurnHeadLeftLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class TiltHeadLeftLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class SybrinBiometrics : ObjectiveC.NSObject {
   @objc public static let shared: Sybrin_iOS_Biometrics.SybrinBiometrics
@@ -218,8 +218,8 @@ import UIKit
   }
   @objc final public func uploadModel(success: ((Swift.Double) -> Swift.Void)? = nil, failure: ((Swift.String) -> Swift.Void)? = nil)
   final public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class LookDownLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
   @objc override dynamic public init()
@@ -259,8 +259,8 @@ import UIKit
   @objc final public func focusImages() -> [UIKit.UIImage]
   @objc override final public func saveImages()
   override final public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class LivenessDetectionQuestion : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public var actionLabel: Swift.String {

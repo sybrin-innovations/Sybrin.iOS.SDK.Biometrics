@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Cc894WKKwXLY1AXTDzONVp6k9KA=
+		G13UnMJSKgaAsVK/4w+GEbN5e3g=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		6EQ+Y0fLygNXDZ4s04Syg4ahy/Q=
+		x0bSJawEI8O8g16GFIQAo6pbuos=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/Sybrin_iOS_Biometrics-Swift.h</key>
 		<data>
-		RywCyhyRpgJBq/DV0uM3Fa00Hik=
+		CPG3iwtmzAun7hchehijM+7oQYA=
 		</data>
 		<key>Headers/Sybrin_iOS_Biometrics.h</key>
 		<data>
@@ -78,39 +78,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F9M7QT59q+Lgtt7pQRZ0+zXv9NA=
+		5D9HPl3nbnjqaILGrQ2kSIvIKlk=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		i7MGXOq5AS9fkdwzRIycP0d+MgA=
+		qjrhEMO2GbtFLylG/f1GLrdyohM=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		i7MGXOq5AS9fkdwzRIycP0d+MgA=
+		qjrhEMO2GbtFLylG/f1GLrdyohM=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		r9dZH1b5sTVwr49sCQC6+aXnKiU=
+		EQe1E3nmrq5Ffwpc/pmgJ1LKLyE=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		RVse3tHfdsNRoUwx+JUPO70Mv9Q=
+		i1fb2fbM9j+86kgfVChDrmO3ZJU=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3DLvI96rjHckV33PBQucjbCId34=
+		idYvRFYayfdGn4ByPCIkNOWyVKc=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		r9dZH1b5sTVwr49sCQC6+aXnKiU=
+		EQe1E3nmrq5Ffwpc/pmgJ1LKLyE=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		RVse3tHfdsNRoUwx+JUPO70Mv9Q=
+		i1fb2fbM9j+86kgfVChDrmO3ZJU=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		3DLvI96rjHckV33PBQucjbCId34=
+		idYvRFYayfdGn4ByPCIkNOWyVKc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>SybrinBiometrics.storyboardc/BiometricsVC.nib</key>
 		<data>
-		g5XZt7uIprs3FidaKnV1V7EYJYc=
+		86LWViIQhJYlUznzCX5dIpydPek=
 		</data>
 		<key>SybrinBiometrics.storyboardc/Info.plist</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>SybrinBiometrics.storyboardc/mCA-DV-fR1-view-aqL-2L-qqY.nib</key>
 		<data>
-		J6vSCm2DSVwnS9EEiBWewqaJJME=
+		54R3yiPhKWeZ0ULJhj8n8xxs9ck=
 		</data>
 		<key>det1.bin</key>
 		<data>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IPWNvPnOI7GVClz+yzqzkv+7iFwXYk8wpV3WsTV514g=
+			SERpJwbVVbBJHheKauwTi2g+LeH0WMMYNnR5pqlgJwc=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GStQIc1WmpRLndsS9yVSdkxqZ28yD0C4627nWBvjric=
+			n5VoutDf/p1qVS/6gnmPC7r2+eXk02MbNS6tuaEZLjg=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -279,7 +279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eKo7UyuD5qn3zNjfZZbJcfYU1+cwIDMZcZYH1LuJMfA=
+			mto/yKYah18pe1vzZ9DfKlC5NInPDHJUktyS7+/YY9c=
 			</data>
 		</dict>
 		<key>Headers/Sybrin_iOS_Biometrics.h</key>
@@ -293,56 +293,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6dqdwhM+QCEOBzVkpN03AVhf/nWwYAbtKh68UKFwqKM=
+			uw+nqvPKY8hCUKTeLxojFeDb4okpE6pC42LhBHVzHjo=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6dqdwhM+QCEOBzVkpN03AVhf/nWwYAbtKh68UKFwqKM=
+			uw+nqvPKY8hCUKTeLxojFeDb4okpE6pC42LhBHVzHjo=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uu8wPRmBZYZx+xQxXO97lIjTzY2WOEH7fcM5ingnW9o=
+			N0PSvQEjSSB5kyRgCrnWFSPl2WvMjhagtveUHoua2JA=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jShWwvsaR95zmconFySscskzGI5Ywlavaa572MW1nUQ=
+			urcp23CFLrk+bmfebzuCuW9J8hYrTdHKGK46cBDQnTs=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SiFbXvM2Bup24AkfGphG04e0Gx/Ca/DegSKvl6hhgbI=
+			NIsPtjTfQwtrsPhmzrqS/qaDZk423FYWG4pnouzT6Jk=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uu8wPRmBZYZx+xQxXO97lIjTzY2WOEH7fcM5ingnW9o=
+			N0PSvQEjSSB5kyRgCrnWFSPl2WvMjhagtveUHoua2JA=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jShWwvsaR95zmconFySscskzGI5Ywlavaa572MW1nUQ=
+			urcp23CFLrk+bmfebzuCuW9J8hYrTdHKGK46cBDQnTs=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SiFbXvM2Bup24AkfGphG04e0Gx/Ca/DegSKvl6hhgbI=
+			NIsPtjTfQwtrsPhmzrqS/qaDZk423FYWG4pnouzT6Jk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -356,7 +356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mVNBtCHlGRH5YAsCgiPgyJqj70nDviz15THQ/0nWb+s=
+			eUV1oQxFkvR89lWkwgdYuKGO/MZd+i6qQ4rvJBAS9k8=
 			</data>
 		</dict>
 		<key>SybrinBiometrics.storyboardc/Info.plist</key>
@@ -370,7 +370,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OsPxFgnHlwdKHaL6FuWjhJ9C8FkKp71G+gNkcxR+k20=
+			PqNbzdVH8fdYuQ35MRVdUO9dMksc4JOu3erL4JcqLDk=
 			</data>
 		</dict>
 		<key>det1.bin</key>
