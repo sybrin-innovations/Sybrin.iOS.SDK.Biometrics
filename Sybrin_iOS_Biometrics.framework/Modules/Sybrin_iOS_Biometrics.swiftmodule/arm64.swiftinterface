@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-ios12.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Sybrin_iOS_Biometrics
 import AVFoundation
 import CommonCrypto
@@ -9,6 +9,7 @@ import Swift
 @_exported import Sybrin_iOS_Biometrics
 import Sybrin_iOS_Common
 import UIKit
+import _Concurrency
 @objc @_inheritsConvenienceInitializers final public class BlinkLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
   @objc override dynamic public init()
   @objc deinit
@@ -68,7 +69,6 @@ import UIKit
   @objc final public var displayToastMessages: Swift.Bool
   @objc final public var saveImages: Swift.Bool
   @objc public init(license: Swift.String)
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class SmileLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
@@ -112,7 +112,6 @@ import UIKit
     @objc get
   }
   final public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc final public class FacialRecognitionModel : Sybrin_iOS_Biometrics.BiometricsModel {
@@ -136,7 +135,6 @@ import UIKit
   }
   @objc override final public func saveImages()
   override final public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class LivenessDetectionModel : Sybrin_iOS_Biometrics.BiometricsModel {
@@ -216,9 +214,8 @@ import UIKit
   @objc final public var uploaded: Swift.Bool {
     @objc get
   }
-  @objc final public func uploadModel(success: ((Swift.Double) -> Swift.Void)? = nil, failure: ((Swift.String) -> Swift.Void)? = nil)
+  @objc final public func uploadModel(success: ((_ timeTaken: Swift.Double) -> Swift.Void)? = nil, failure: ((_ reason: Swift.String) -> Swift.Void)? = nil)
   final public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class LookDownLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
