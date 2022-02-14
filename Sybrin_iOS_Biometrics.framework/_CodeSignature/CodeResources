@@ -78,15 +78,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0xS1ja5lJ1ItLXs9YlNkYNHjNMY=
+		g3SJTU78cywKOIlAbetvCJWrzbg=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		9Cz8J/3ytmELVBe6rlzNOy/n0Qg=
+		Ujz+yDBR9I1t1Gbj04LQ3wAstuw=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		9Cz8J/3ytmELVBe6rlzNOy/n0Qg=
+		Ujz+yDBR9I1t1Gbj04LQ3wAstuw=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8oKxeOqVW0UXbUM5EtkSOSZvodw=
+		+3y9IlkL3Qi4v4DqCDwCYhtWf1g=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		8oKxeOqVW0UXbUM5EtkSOSZvodw=
+		+3y9IlkL3Qi4v4DqCDwCYhtWf1g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -293,14 +293,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zkQMDwC3qClJOta423QcZbqRsmN8k8a8rISSpsakYxI=
+			GyKLLbcHejCuN9Vd4nsHRyATfZWVMvCP+e0dsQ54440=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zkQMDwC3qClJOta423QcZbqRsmN8k8a8rISSpsakYxI=
+			GyKLLbcHejCuN9Vd4nsHRyATfZWVMvCP+e0dsQ54440=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -321,7 +321,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cJd8f3sOIYlYl+ASFrirVAHG24jYDwwI0roobGdRmjM=
+			/7jpU5GfzDvWk6OVy1H1ngYNiDMLw3IS23kdFtpRJuI=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64.swiftdoc</key>
@@ -342,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cJd8f3sOIYlYl+ASFrirVAHG24jYDwwI0roobGdRmjM=
+			/7jpU5GfzDvWk6OVy1H1ngYNiDMLw3IS23kdFtpRJuI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
