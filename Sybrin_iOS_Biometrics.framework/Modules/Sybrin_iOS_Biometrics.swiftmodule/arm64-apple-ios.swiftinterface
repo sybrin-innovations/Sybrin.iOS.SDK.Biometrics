@@ -68,6 +68,7 @@ import _Concurrency
   @objc final public var correlationID: Swift.String?
   @objc final public var displayToastMessages: Swift.Bool
   @objc final public var saveImages: Swift.Bool
+  @objc final public var customAuthorizationToken: Swift.String?
   @objc public init(license: Swift.String)
   @objc deinit
 }

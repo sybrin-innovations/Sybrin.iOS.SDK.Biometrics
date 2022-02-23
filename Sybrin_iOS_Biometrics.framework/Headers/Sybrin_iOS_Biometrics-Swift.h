@@ -419,6 +419,7 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics29SybrinBiometricsConfiguration")
 @property (nonatomic, copy) NSString * _Nullable correlationID;
 @property (nonatomic) BOOL displayToastMessages;
 @property (nonatomic) BOOL saveImages;
+@property (nonatomic, copy) NSString * _Nullable customAuthorizationToken;
 - (nonnull instancetype)initWithLicense:(NSString * _Nonnull)license OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
