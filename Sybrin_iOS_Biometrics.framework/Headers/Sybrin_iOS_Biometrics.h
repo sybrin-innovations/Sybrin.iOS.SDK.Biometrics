@@ -16,6 +16,6 @@ FOUNDATION_EXPORT const unsigned char Sybrin_iOS_BiometricsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Sybrin_iOS_Biometrics/PublicHeader.h>
 
-#import "OpenCVWrapper.h"
+//#import "OpenCVWrapper.h"
 #import "NCNNWrapper.h"
 
