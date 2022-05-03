@@ -150,6 +150,59 @@ import _Concurrency
   @objc override dynamic public init()
   @objc deinit
 }
+@_inheritsConvenienceInitializers @objc final public class FacialRecognitionTrainingModel : Sybrin_iOS_Biometrics.LivenessDetectionModel {
+  @objc final public var livenessDetectionQuestions: [Sybrin_iOS_Biometrics.FacialTrainingActionOnDetection] {
+    @objc get
+  }
+  @objc final public func actionImages() -> [UIKit.UIImage]
+  @objc final public func focusImages() -> [UIKit.UIImage]
+  @objc override final public func saveImages()
+  override final public func encode(to encoder: Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class FacialTrainingActionOnDetection : ObjectiveC.NSObject, Swift.Encodable {
+  @objc final public var actionLabel: Swift.String {
+    @objc get
+  }
+  @objc final public var actionCompleted: Swift.Bool {
+    @objc get
+  }
+  @objc final public var actionImage: UIKit.UIImage? {
+    @objc get
+  }
+  @objc final public var actionImagePath: Swift.String? {
+    @objc get
+  }
+  @objc final public var croppedActionImage: UIKit.UIImage? {
+    @objc get
+  }
+  @objc final public var croppedActionImagePath: Swift.String? {
+    @objc get
+  }
+  @objc final public var focusLabel: Swift.String {
+    @objc get
+  }
+  @objc final public var focusCompleted: Swift.Bool {
+    @objc get
+  }
+  @objc final public var focusImage: UIKit.UIImage? {
+    @objc get
+  }
+  @objc final public var focusImagePath: Swift.String? {
+    @objc get
+  }
+  @objc final public var croppedFocusImage: UIKit.UIImage? {
+    @objc get
+  }
+  @objc final public var croppedFocusImagePath: Swift.String? {
+    @objc get
+  }
+  @objc final public func saveImages()
+  final public func encode(to encoder: Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers final public class TiltHeadLeftLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
   @objc override dynamic public init()
   @objc deinit
@@ -170,8 +223,10 @@ import _Concurrency
   public typealias loadModelSuccessCallbackType = (Sybrin_iOS_Biometrics.FacialRecognitionInitializationModel) -> Swift.Void
   public typealias facialTrainingSuccessCallbackType = (Sybrin_iOS_Biometrics.FacialTrainingModel) -> Swift.Void
   public typealias facialRecognitionSuccessCallbackType = (Sybrin_iOS_Biometrics.FacialRecognitionModel) -> Swift.Void
+  public typealias nfacialTrainingSuccessCallbackType = (Sybrin_iOS_Biometrics.FacialRecognitionTrainingModel) -> Swift.Void
   @objc final public func changeLogLevel(to logLevel: Sybrin_iOS_Common.LogLevel)
   @objc final public func openActiveLivenessDetection(on viewController: UIKit.UIViewController, actions: [Sybrin_iOS_Biometrics.LivenessDetectionQuestion]? = nil, doneLaunching: Sybrin_iOS_Biometrics.SybrinBiometrics.doneLaunchingType? = nil, success: Sybrin_iOS_Biometrics.SybrinBiometrics.activeLivenessDetectionSuccessCallbackType? = nil, failure: Sybrin_iOS_Biometrics.SybrinBiometrics.failureCallbackType? = nil, cancel: Sybrin_iOS_Biometrics.SybrinBiometrics.cancelCallbackType? = nil)
+  @objc final public func openFacialRecognitionTraining(on viewController: UIKit.UIViewController, actions: [Sybrin_iOS_Biometrics.FacialTrainingActionOnDetection]? = nil, doneLaunching: Sybrin_iOS_Biometrics.SybrinBiometrics.doneLaunchingType? = nil, success: Sybrin_iOS_Biometrics.SybrinBiometrics.nfacialTrainingSuccessCallbackType? = nil, failure: Sybrin_iOS_Biometrics.SybrinBiometrics.failureCallbackType? = nil, cancel: Sybrin_iOS_Biometrics.SybrinBiometrics.cancelCallbackType? = nil)
   @objc final public func openActivePassiveLivenessDetection(on viewController: UIKit.UIViewController, actions: [Sybrin_iOS_Biometrics.LivenessDetectionQuestion]? = nil, doneLaunching: Sybrin_iOS_Biometrics.SybrinBiometrics.doneLaunchingType? = nil, success: Sybrin_iOS_Biometrics.SybrinBiometrics.activePassiveLivenessDetectionSuccessCallbackType? = nil, failure: Sybrin_iOS_Biometrics.SybrinBiometrics.failureCallbackType? = nil, cancel: Sybrin_iOS_Biometrics.SybrinBiometrics.cancelCallbackType? = nil)
   @objc final public func openPassiveLivenessDetection(on viewController: UIKit.UIViewController, doneLaunching: Sybrin_iOS_Biometrics.SybrinBiometrics.doneLaunchingType? = nil, success: Sybrin_iOS_Biometrics.SybrinBiometrics.passiveLivenessDetectionSuccessCallbackType? = nil, failure: Sybrin_iOS_Biometrics.SybrinBiometrics.failureCallbackType? = nil, cancel: Sybrin_iOS_Biometrics.SybrinBiometrics.cancelCallbackType? = nil)
   @objc final public func passiveLivenessDetectionFromImage(image: UIKit.UIImage, success: Sybrin_iOS_Biometrics.SybrinBiometrics.passiveLivenessDetectionSuccessCallbackType? = nil, failure: Sybrin_iOS_Biometrics.SybrinBiometrics.failureCallbackType? = nil)
@@ -243,6 +298,14 @@ import _Concurrency
     @objc get
   }
   override final public func encode(to encoder: Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class DefaultTrainingAction : Sybrin_iOS_Biometrics.FacialTrainingActionOnDetection {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class DefaultLivenessTrainingAction : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
   @objc override dynamic public init()
   @objc deinit
 }
