@@ -1,15 +1,20 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios12.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Sybrin_iOS_Biometrics
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import CommonCrypto
+import DeveloperToolsSupport
 import Foundation
 import MLKit
 import Swift
+import SwiftUI
 @_exported import Sybrin_iOS_Biometrics
 import Sybrin_iOS_Common
 import UIKit
 import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers final public class BlinkLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
   @objc override dynamic public init()
   @objc deinit
@@ -40,7 +45,7 @@ import _Concurrency
     @objc get
   }
   @objc final public func saveImages()
-  final public func encode(to encoder: Swift.Encoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -52,10 +57,10 @@ import _Concurrency
   @objc final public var overlayLabelTextColor: UIKit.UIColor
   @objc final public var overlaySubLabelTextColor: UIKit.UIColor
   @objc final public var overlayBorderColor: UIKit.UIColor
-  @objc final public var overlayBorderThickness: CoreGraphics.CGFloat
-  @objc final public var overlayBorderLength: CoreGraphics.CGFloat
+  @objc final public var overlayBorderThickness: CoreFoundation.CGFloat
+  @objc final public var overlayBorderLength: CoreFoundation.CGFloat
   @objc final public var overlayBlurStyle: UIKit.UIBlurEffect.Style
-  @objc final public var overlayBlurIntensity: CoreGraphics.CGFloat
+  @objc final public var overlayBlurIntensity: CoreFoundation.CGFloat
   @objc final public var cameraPosition: AVFoundation.AVCaptureDevice.Position
   @objc final public var environmentKey: Swift.String
   @objc final public var overlayBrandingTitleText: Swift.String
@@ -68,9 +73,20 @@ import _Concurrency
   @objc final public var correlationID: Swift.String?
   @objc final public var displayToastMessages: Swift.Bool
   @objc final public var saveImages: Swift.Bool
+  @objc final public var enableOfflinePassiveLiveness: Swift.Bool
   @objc final public var customAuthorizationToken: Swift.String?
+  final public var language: Sybrin_iOS_Biometrics.Language?
   @objc public init(license: Swift.String)
   @objc deinit
+}
+public enum Language : Swift.Int, Swift.RawRepresentable {
+  case FILIPINO
+  case ENGLISH
+  public typealias RawValue = Swift.String
+  public var rawValue: Sybrin_iOS_Biometrics.Language.RawValue {
+    get
+  }
+  public init?(rawValue: Sybrin_iOS_Biometrics.Language.RawValue)
 }
 @objc @_inheritsConvenienceInitializers final public class SmileLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
   @objc override dynamic public init()
@@ -90,7 +106,7 @@ import _Concurrency
     @objc get
   }
   @objc final public func saveImages()
-  final public func encode(to encoder: Swift.Encoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -112,7 +128,7 @@ import _Concurrency
   @objc final public var modelDownloaded: Swift.Bool {
     @objc get
   }
-  final public func encode(to encoder: Swift.Encoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc final public class FacialRecognitionModel : Sybrin_iOS_Biometrics.BiometricsModel {
@@ -135,14 +151,14 @@ import _Concurrency
     @objc get
   }
   @objc override final public func saveImages()
-  override final public func encode(to encoder: Swift.Encoder) throws
+  override final public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class LivenessDetectionModel : Sybrin_iOS_Biometrics.BiometricsModel {
   @objc final public var isAlive: Swift.Bool {
     @objc get
   }
-  override public func encode(to encoder: Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -157,7 +173,7 @@ import _Concurrency
   @objc final public func actionImages() -> [UIKit.UIImage]
   @objc final public func focusImages() -> [UIKit.UIImage]
   @objc override final public func saveImages()
-  override final public func encode(to encoder: Swift.Encoder) throws
+  override final public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -199,7 +215,7 @@ import _Concurrency
     @objc get
   }
   @objc final public func saveImages()
-  final public func encode(to encoder: Swift.Encoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -250,7 +266,7 @@ import _Concurrency
     @objc get
   }
   @objc public func saveImages()
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -271,7 +287,7 @@ import _Concurrency
     @objc get
   }
   @objc final public func uploadModel(success: ((_ timeTaken: Swift.Double) -> Swift.Void)? = nil, failure: ((_ reason: Swift.String) -> Swift.Void)? = nil)
-  final public func encode(to encoder: Swift.Encoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class LookDownLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
@@ -289,7 +305,7 @@ import _Concurrency
   @objc final public func actionImages() -> [UIKit.UIImage]
   @objc final public func focusImages() -> [UIKit.UIImage]
   @objc override final public func saveImages()
-  override final public func encode(to encoder: Swift.Encoder) throws
+  override final public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -297,7 +313,7 @@ import _Concurrency
   @objc final public var livenessConfidence: Swift.Float {
     @objc get
   }
-  override final public func encode(to encoder: Swift.Encoder) throws
+  override final public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -319,7 +335,7 @@ import _Concurrency
   @objc final public func actionImages() -> [UIKit.UIImage]
   @objc final public func focusImages() -> [UIKit.UIImage]
   @objc override final public func saveImages()
-  override final public func encode(to encoder: Swift.Encoder) throws
+  override final public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -361,7 +377,9 @@ import _Concurrency
     @objc get
   }
   @objc final public func saveImages()
-  final public func encode(to encoder: Swift.Encoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
+extension Sybrin_iOS_Biometrics.Language : Swift.Equatable {}
+extension Sybrin_iOS_Biometrics.Language : Swift.Hashable {}
