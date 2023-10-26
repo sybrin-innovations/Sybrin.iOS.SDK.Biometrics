@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		XIxogH9dqFP0DlPYdXiUX/zCmRs=
+		7aB1kj7gBhWUb0tpGJpXd5l6YbE=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UuKGWiqiW0OKSlbRLOFQwgRFS7Y=
+		qCUJ1ERRMCi9abiPIq1tMldEO74=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		MEMhnii6kfirkF88PfdP84WfZBw=
+		Ioa8XydF9dBh94phuYZ17c03ApY=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		B3Y628Ou8TlLtJYUHuaUmycwKSY=
+		5qMArTlmHNIJI1xKByyBBIr45EM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n4+p+v4x9GUYnnbF1ELgo9wybnYXwRskOb9IUJycKXk=
+			GPUWPTljgtSJXTVgycbTYCnq7x2KeXdmxeP3VnPNnuM=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -301,7 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VL03edBjQlkpBK3U3Rf6AL5tpoEqxd24ijr2W9lMeGs=
+			MJfx1IqaZ586Yt6uhgoHpCVoa3uYvHXIA979w1h3/Sc=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -336,7 +336,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9aIRYeYSH6AdR2etFtIoS9LLQYsgg5+W3HkIZxfi2qQ=
+			DjilfVakn0izUEvzA72h6CxfOXvghzsvEl3rm7NMh1E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
