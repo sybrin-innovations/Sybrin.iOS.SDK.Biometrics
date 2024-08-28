@@ -20,28 +20,7 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc final public class FacialComparisonResult : ObjectiveC.NSObject, Swift.Encodable {
-  @objc final public var result: Swift.Bool {
-    @objc get
-  }
-  @objc final public var message: Swift.String {
-    @objc get
-  }
-  @objc final public var confidence: Swift.Double {
-    @objc get
-  }
-  @objc final public var timeTakenMilliseconds: Swift.Double {
-    @objc get
-  }
-  @objc final public var targetName: Swift.String? {
-    @objc get
-  }
-  @objc final public var faceName: Swift.String? {
-    @objc get
-  }
-  @objc final public var faceImage: UIKit.UIImage? {
-    @objc get
-  }
-  @objc final public var faceImagePath: Swift.String? {
+  @objc final public var result: Swift.Int {
     @objc get
   }
   @objc final public func saveImages()
@@ -50,6 +29,7 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @objc final public class SybrinBiometricsConfiguration : ObjectiveC.NSObject, Sybrin_iOS_Common.SybrinCommonConfiguration {
+  final public var environmentKey: Swift.String
   @objc final public var license: Swift.String {
     @objc get
   }
@@ -62,7 +42,6 @@ import _SwiftConcurrencyShims
   @objc final public var overlayBlurStyle: UIKit.UIBlurEffect.Style
   @objc final public var overlayBlurIntensity: CoreFoundation.CGFloat
   @objc final public var cameraPosition: AVFoundation.AVCaptureDevice.Position
-  @objc final public var environmentKey: Swift.String
   @objc final public var overlayBrandingTitleText: Swift.String
   @objc final public var overlayBrandingTitleColor: UIKit.UIColor
   @objc final public var overlayBrandingSubtitleText: Swift.String
@@ -76,7 +55,7 @@ import _SwiftConcurrencyShims
   @objc final public var enableOfflinePassiveLiveness: Swift.Bool
   @objc final public var customAuthorizationToken: Swift.String?
   final public var language: Sybrin_iOS_Biometrics.Language?
-  @objc public init(license: Swift.String)
+  @objc public init(license: Swift.String, environmentKey: Swift.String)
   @objc deinit
 }
 public enum Language : Swift.Int, Swift.RawRepresentable {
@@ -296,6 +275,14 @@ public enum Language : Swift.Int, Swift.RawRepresentable {
 }
 @objc @_inheritsConvenienceInitializers final public class TiltHeadRightLivenessDetectionQuestion : Sybrin_iOS_Biometrics.LivenessDetectionQuestion {
   @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Constants {
+  public static var orchestrationURL: Swift.String?
+  public static var orchestrationAPIKey: Swift.String?
+  public static var authToken: Swift.String?
+  public static var face1: UIKit.UIImage
+  public static var face2: UIKit.UIImage
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc final public class ActiveLivenessDetectionModel : Sybrin_iOS_Biometrics.LivenessDetectionModel {

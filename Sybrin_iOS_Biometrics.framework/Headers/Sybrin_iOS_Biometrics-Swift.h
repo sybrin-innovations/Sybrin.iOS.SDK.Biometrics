@@ -418,14 +418,7 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics21FacialComparisonModel")
 
 SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics22FacialComparisonResult")
 @interface FacialComparisonResult : NSObject
-@property (nonatomic, readonly) BOOL result;
-@property (nonatomic, readonly, copy) NSString * _Nonnull message;
-@property (nonatomic, readonly) double confidence;
-@property (nonatomic, readonly) double timeTakenMilliseconds;
-@property (nonatomic, readonly, copy) NSString * _Nullable targetName;
-@property (nonatomic, readonly, copy) NSString * _Nullable faceName;
-@property (nonatomic, readonly, strong) UIImage * _Nullable faceImage;
-@property (nonatomic, readonly, copy) NSString * _Nullable faceImagePath;
+@property (nonatomic, readonly) NSInteger result;
 - (void)saveImages;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -543,7 +536,6 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics29SybrinBiometricsConfiguration")
 @property (nonatomic) enum UIBlurEffectStyle overlayBlurStyle;
 @property (nonatomic) CGFloat overlayBlurIntensity;
 @property (nonatomic) enum AVCaptureDevicePosition cameraPosition;
-@property (nonatomic, copy) NSString * _Nonnull environmentKey;
 @property (nonatomic, copy) NSString * _Nonnull overlayBrandingTitleText;
 @property (nonatomic, strong) UIColor * _Nonnull overlayBrandingTitleColor;
 @property (nonatomic, copy) NSString * _Nonnull overlayBrandingSubtitleText;
@@ -556,7 +548,7 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics29SybrinBiometricsConfiguration")
 @property (nonatomic) BOOL saveImages;
 @property (nonatomic) BOOL enableOfflinePassiveLiveness;
 @property (nonatomic, copy) NSString * _Nullable customAuthorizationToken;
-- (nonnull instancetype)initWithLicense:(NSString * _Nonnull)license OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithLicense:(NSString * _Nonnull)license environmentKey:(NSString * _Nonnull)environmentKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
