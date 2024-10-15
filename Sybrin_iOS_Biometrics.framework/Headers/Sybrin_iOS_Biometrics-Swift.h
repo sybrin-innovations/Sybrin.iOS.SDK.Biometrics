@@ -403,6 +403,7 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics21DefaultTrainingAction")
 @end
 
 
+
 @class FacialComparisonResult;
 
 SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics21FacialComparisonModel")

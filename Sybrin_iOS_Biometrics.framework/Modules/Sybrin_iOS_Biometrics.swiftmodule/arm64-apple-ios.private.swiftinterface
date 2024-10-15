@@ -283,6 +283,7 @@ public enum Language : Swift.Int, Swift.RawRepresentable {
   public static var authToken: Swift.String?
   public static var face1: UIKit.UIImage
   public static var face2: UIKit.UIImage
+  public static var overlayWidth: CoreFoundation.CGFloat?
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc final public class ActiveLivenessDetectionModel : Sybrin_iOS_Biometrics.LivenessDetectionModel {

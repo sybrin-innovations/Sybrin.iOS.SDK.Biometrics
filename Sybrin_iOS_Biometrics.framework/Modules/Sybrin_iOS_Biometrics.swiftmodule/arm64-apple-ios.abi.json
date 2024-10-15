@@ -4910,6 +4910,23 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Sybrin_iOS_Biometrics"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Sybrin_iOS_Biometrics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Sybrin_iOS_Common",
         "printedName": "Sybrin_iOS_Common",
         "declKind": "Import",
@@ -9958,6 +9975,130 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "overlayWidth",
+            "printedName": "overlayWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21Sybrin_iOS_Biometrics9ConstantsC12overlayWidth14CoreFoundation7CGFloatVSgvpZ",
+            "mangledName": "$s21Sybrin_iOS_Biometrics9ConstantsC12overlayWidth12CoreGraphics7CGFloatVSgvpZ",
+            "moduleName": "Sybrin_iOS_Biometrics",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics9ConstantsC12overlayWidth14CoreFoundation7CGFloatVSgvgZ",
+                "mangledName": "$s21Sybrin_iOS_Biometrics9ConstantsC12overlayWidth12CoreGraphics7CGFloatVSgvgZ",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics9ConstantsC12overlayWidth14CoreFoundation7CGFloatVSgvsZ",
+                "mangledName": "$s21Sybrin_iOS_Biometrics9ConstantsC12overlayWidth12CoreGraphics7CGFloatVSgvsZ",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics9ConstantsC12overlayWidth14CoreFoundation7CGFloatVSgvMZ",
+                "mangledName": "$s21Sybrin_iOS_Biometrics9ConstantsC12overlayWidth12CoreGraphics7CGFloatVSgvMZ",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -12530,953 +12671,967 @@
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 7939,
+      "length": 17,
+      "value": "\"Face is too far\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 8155,
+      "length": 19,
+      "value": "\"Face is too close\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 7808,
+      "offset": 8502,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 7844,
+      "offset": 8538,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 7878,
+      "offset": 8572,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 7909,
+      "offset": 8603,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 8135,
+      "offset": 8829,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 8667,
+      "offset": 9361,
       "length": 4,
       "value": "0.92"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 8746,
+      "offset": 9440,
       "length": 12,
       "value": "\"Distance92\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 8823,
+      "offset": 9517,
       "length": 12,
       "value": "\"Distance92\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 9003,
+      "offset": 9697,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9021,
+      "offset": 9715,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 9082,
+      "offset": 9776,
       "length": 21,
       "value": "\"Face ratio above 92\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 9196,
+      "offset": 9890,
       "length": 4,
       "value": "0.89"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 9217,
+      "offset": 9911,
       "length": 4,
       "value": "0.91"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 9296,
+      "offset": 9990,
       "length": 12,
       "value": "\"Distance90\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 9373,
+      "offset": 10067,
       "length": 12,
       "value": "\"Distance90\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 9553,
+      "offset": 10247,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9571,
+      "offset": 10265,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 9632,
+      "offset": 10326,
       "length": 16,
       "value": "\"Face ratio 90%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 9741,
+      "offset": 10435,
       "length": 4,
       "value": "0.84"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 9762,
+      "offset": 10456,
       "length": 4,
       "value": "0.86"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 9841,
+      "offset": 10535,
       "length": 12,
       "value": "\"Distance85\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 9918,
+      "offset": 10612,
       "length": 12,
       "value": "\"Distance85\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 10098,
+      "offset": 10792,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 10116,
+      "offset": 10810,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 10177,
+      "offset": 10871,
       "length": 16,
       "value": "\"Face ratio 85%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 10286,
+      "offset": 10980,
       "length": 4,
       "value": "0.79"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 10307,
+      "offset": 11001,
       "length": 4,
       "value": "0.81"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 10386,
+      "offset": 11080,
       "length": 12,
       "value": "\"Distance80\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 10463,
+      "offset": 11157,
       "length": 12,
       "value": "\"Distance80\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 10643,
+      "offset": 11337,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 10661,
+      "offset": 11355,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 10722,
+      "offset": 11416,
       "length": 16,
       "value": "\"Face ratio 80%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 10831,
+      "offset": 11525,
       "length": 4,
       "value": "0.74"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 10852,
+      "offset": 11546,
       "length": 4,
       "value": "0.76"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 10931,
+      "offset": 11625,
       "length": 12,
       "value": "\"Distance75\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 11008,
+      "offset": 11702,
       "length": 12,
       "value": "\"Distance75\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 11188,
+      "offset": 11882,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 11206,
+      "offset": 11900,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 11267,
+      "offset": 11961,
       "length": 16,
       "value": "\"Face ratio 75%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 11376,
+      "offset": 12070,
       "length": 4,
       "value": "0.69"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 11397,
+      "offset": 12091,
       "length": 4,
       "value": "0.71"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 11476,
+      "offset": 12170,
       "length": 12,
       "value": "\"Distance70\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 11553,
+      "offset": 12247,
       "length": 12,
       "value": "\"Distance70\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 11733,
+      "offset": 12427,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 11751,
+      "offset": 12445,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 11812,
+      "offset": 12506,
       "length": 16,
       "value": "\"Face ratio 70%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 11921,
+      "offset": 12615,
       "length": 4,
       "value": "0.64"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 11942,
+      "offset": 12636,
       "length": 4,
       "value": "0.66"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 12021,
+      "offset": 12715,
       "length": 12,
       "value": "\"Distance65\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 12098,
+      "offset": 12792,
       "length": 12,
       "value": "\"Distance65\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 12278,
+      "offset": 12972,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 12296,
+      "offset": 12990,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 12357,
+      "offset": 13051,
       "length": 16,
       "value": "\"Face ratio 65%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 12466,
+      "offset": 13160,
       "length": 4,
       "value": "0.59"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 12487,
+      "offset": 13181,
       "length": 4,
       "value": "0.61"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 12566,
+      "offset": 13260,
       "length": 12,
       "value": "\"Distance60\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 12643,
+      "offset": 13337,
       "length": 12,
       "value": "\"Distance60\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 12823,
+      "offset": 13517,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 12841,
+      "offset": 13535,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 12902,
+      "offset": 13596,
       "length": 16,
       "value": "\"Face ratio 60%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 13011,
+      "offset": 13705,
       "length": 4,
       "value": "0.54"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 13032,
+      "offset": 13726,
       "length": 4,
       "value": "0.56"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 13111,
+      "offset": 13805,
       "length": 12,
       "value": "\"Distance55\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 13188,
+      "offset": 13882,
       "length": 12,
       "value": "\"Distance55\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 13368,
+      "offset": 14062,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 13386,
+      "offset": 14080,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 13447,
+      "offset": 14141,
       "length": 16,
       "value": "\"Face ratio 55%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 13556,
+      "offset": 14250,
       "length": 4,
       "value": "0.49"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 13577,
+      "offset": 14271,
       "length": 4,
       "value": "0.51"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 13656,
+      "offset": 14350,
       "length": 12,
       "value": "\"Distance50\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 13733,
+      "offset": 14427,
       "length": 12,
       "value": "\"Distance50\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 13913,
+      "offset": 14607,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 13931,
+      "offset": 14625,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 13992,
+      "offset": 14686,
       "length": 16,
       "value": "\"Face ratio 50%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 14101,
+      "offset": 14795,
       "length": 4,
       "value": "0.44"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 14122,
+      "offset": 14816,
       "length": 4,
       "value": "0.46"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 14201,
+      "offset": 14895,
       "length": 12,
       "value": "\"Distance45\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 14278,
+      "offset": 14972,
       "length": 12,
       "value": "\"Distance45\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 14458,
+      "offset": 15152,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 14476,
+      "offset": 15170,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 14537,
+      "offset": 15231,
       "length": 16,
       "value": "\"Face ratio 45%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 14646,
+      "offset": 15340,
       "length": 4,
       "value": "0.39"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 14667,
+      "offset": 15361,
       "length": 4,
       "value": "0.41"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 14746,
+      "offset": 15440,
       "length": 12,
       "value": "\"Distance40\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 14823,
+      "offset": 15517,
       "length": 12,
       "value": "\"Distance40\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 15003,
+      "offset": 15697,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 15021,
+      "offset": 15715,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 15082,
+      "offset": 15776,
       "length": 16,
       "value": "\"Face ratio 40%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 15198,
+      "offset": 15892,
       "length": 4,
       "value": "0.98"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 15277,
+      "offset": 15971,
       "length": 14,
       "value": "\"Confidence98\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 15356,
+      "offset": 16050,
       "length": 14,
       "value": "\"Confidence98\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 15538,
+      "offset": 16232,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 15556,
+      "offset": 16250,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 15617,
+      "offset": 16311,
       "length": 17,
       "value": "\"Score above 98%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 15742,
+      "offset": 16436,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 15777,
+      "offset": 16471,
       "length": 4,
       "value": "0.98"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 15856,
+      "offset": 16550,
       "length": 18,
       "value": "\"Confidence75to98\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 15939,
+      "offset": 16633,
       "length": 18,
       "value": "\"Confidence75to98\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 16125,
+      "offset": 16819,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 16143,
+      "offset": 16837,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 16204,
+      "offset": 16898,
       "length": 18,
       "value": "\"Score 75% to 98%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 16330,
+      "offset": 17024,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 16364,
+      "offset": 17058,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 16443,
+      "offset": 17137,
       "length": 18,
       "value": "\"Confidence50to75\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 16526,
+      "offset": 17220,
       "length": 18,
       "value": "\"Confidence50to75\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 16712,
+      "offset": 17406,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 16730,
+      "offset": 17424,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 16791,
+      "offset": 17485,
       "length": 18,
       "value": "\"Score 50% to 75%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 16917,
+      "offset": 17611,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 16952,
+      "offset": 17646,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 17030,
+      "offset": 17724,
       "length": 18,
       "value": "\"Confidence25to50\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 17113,
+      "offset": 17807,
       "length": 18,
       "value": "\"Confidence25to50\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 17299,
+      "offset": 17993,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 17317,
+      "offset": 18011,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 17378,
+      "offset": 18072,
       "length": 18,
       "value": "\"Score 25% to 50%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 17504,
+      "offset": 18198,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 17538,
+      "offset": 18232,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 17617,
+      "offset": 18311,
       "length": 18,
       "value": "\"Confidence10to25\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 17700,
+      "offset": 18394,
       "length": 18,
       "value": "\"Confidence10to25\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "FloatLiteral",
-      "offset": 17886,
+      "offset": 18580,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 17904,
+      "offset": 18598,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 17965,
+      "offset": 18659,
       "length": 18,
       "value": "\"Score 10% to 25%\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 18089,
+      "offset": 18783,
       "length": 58,
       "value": "\"Liveness Score: \""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 18143,
+      "offset": 18837,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 18146,
+      "offset": 18840,
       "length": 80,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 18221,
+      "offset": 18915,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 18283,
+      "offset": 18977,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 18300,
+      "offset": 18994,
       "length": 1,
       "value": "\"\nFace Ratio: \""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 18326,
+      "offset": 19020,
       "length": 48,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 18369,
+      "offset": 19063,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 18524,
+      "offset": 19218,
       "length": 33,
       "value": "\"Failed to do liveness: \""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "StringLiteral",
-      "offset": 18556,
+      "offset": 19250,
       "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 18597,
+      "offset": 19291,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 18712,
+      "offset": 19406,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 19002,
+      "offset": 19696,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SybrinPassiveLivenessDetectionTestScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 19051,
+      "offset": 19745,
       "length": 5,
       "value": "false"
     },
@@ -15044,119 +15199,147 @@
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 6263,
+      "offset": 6276,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 6506,
+      "length": 17,
+      "value": "\"Face is too far\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 6746,
+      "length": 19,
+      "value": "\"Face is too close\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 6943,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7001,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 6323,
+      "offset": 7121,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 6359,
+      "offset": 7157,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 6410,
+      "offset": 7208,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 6818,
+      "offset": 7616,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 7108,
+      "offset": 7906,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 7167,
+      "offset": 7965,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 7207,
+      "offset": 8005,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 7387,
+      "offset": 8185,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 7999,
+      "offset": 8797,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 8116,
+      "offset": 8914,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 8510,
+      "offset": 9308,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 8936,
+      "offset": 9734,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9171,
+      "offset": 9969,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 9209,
+      "offset": 10007,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9263,
+      "offset": 10061,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/ActiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 9307,
+      "offset": 10105,
       "length": 5,
       "value": "false"
     },
@@ -17179,84 +17362,84 @@
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1008,
+      "offset": 1063,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1030,
+      "offset": 1085,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1080,
+      "offset": 1135,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1101,
+      "offset": 1156,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1858,
+      "offset": 1913,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "StringLiteral",
-      "offset": 2022,
+      "offset": 2077,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "StringLiteral",
-      "offset": 2588,
+      "offset": 2643,
       "length": 5,
       "value": "\"eng\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "StringLiteral",
-      "offset": 2724,
+      "offset": 2779,
       "length": 8,
       "value": "\"fil-PH\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "StringLiteral",
-      "offset": 2775,
+      "offset": 2830,
       "length": 5,
       "value": "\"eng\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "StringLiteral",
-      "offset": 2817,
+      "offset": 2872,
       "length": 5,
       "value": "\"eng\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "StringLiteral",
-      "offset": 2911,
+      "offset": 2966,
       "length": 7,
       "value": "\"lproj\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/UI\/BiometricsUI.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3115,
       "length": 13,
       "value": "\"Localizable\""
     },
@@ -17882,6 +18065,104 @@
       "offset": 259,
       "length": 3,
       "value": "501"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1395,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1495,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 34,
+      "value": "\"Unknown camera permission status\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2149,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2250,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2305,
+      "length": 38,
+      "value": "\"Unknown microphone permission status\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2568,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2582,
+      "length": 10,
+      "value": "\" Permission Needed\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2660,
+      "length": 74,
+      "value": "\"Please enable \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2701,
+      "length": 6,
+      "value": "\" access in Settings to continue.\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2867,
+      "length": 16,
+      "value": "\"Go to Settings\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "Dictionary",
+      "offset": 3057,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "StringLiteral",
+      "offset": 3158,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/PermissionManger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3372,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Models\/LivenessDetectionModel.swift",
@@ -20595,205 +20876,261 @@
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9757,
+      "offset": 9784,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9790,
+      "offset": 9817,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 10047,
+      "length": 17,
+      "value": "\"Face is too far\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 10287,
+      "length": 19,
+      "value": "\"Face is too close\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 10484,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10542,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9850,
+      "offset": 10649,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9886,
+      "offset": 10685,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 9937,
+      "offset": 10736,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 10437,
+      "offset": 11236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 10487,
+      "offset": 11286,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 10514,
+      "offset": 11313,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 10621,
+      "offset": 11420,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 10822,
+      "offset": 11621,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 11001,
+      "offset": 11800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 11074,
+      "offset": 11873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 12421,
+      "offset": 13220,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 12534,
+      "offset": 13333,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 12594,
+      "offset": 13393,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 12642,
+      "offset": 13441,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 12914,
+      "offset": 13713,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 13511,
+      "offset": 14310,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 13628,
+      "offset": 14427,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 13666,
+      "offset": 14465,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 14058,
+      "offset": 14857,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 14484,
+      "offset": 15283,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
+      "kind": "FloatLiteral",
+      "offset": 15606,
+      "length": 5,
+      "value": "450.0"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
+      "kind": "FloatLiteral",
+      "offset": 15652,
+      "length": 5,
+      "value": "750.0"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 14796,
+      "offset": 16211,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 14845,
+      "offset": 16260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 14890,
+      "offset": 16305,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 14918,
+      "offset": 16333,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 14963,
+      "offset": 16378,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 15013,
+      "offset": 16428,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
       "kind": "BooleanLiteral",
-      "offset": 15057,
+      "offset": 16472,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
+      "kind": "FloatLiteral",
+      "offset": 16840,
+      "length": 5,
+      "value": "450.0"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/PassiveLivenessDetectionScanPhase.swift",
+      "kind": "FloatLiteral",
+      "offset": 16886,
+      "length": 5,
+      "value": "750.0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Plans\/ActiveLivenessDetectionScanPlan.swift",
@@ -21406,71 +21743,99 @@
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 3025,
+      "length": 17,
+      "value": "\"Face is too far\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 3265,
+      "length": 19,
+      "value": "\"Face is too close\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 2855,
+      "offset": 3520,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 2891,
+      "offset": 3627,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 2942,
+      "offset": 3663,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 3825,
+      "offset": 3714,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4597,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 3954,
+      "offset": 4726,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 4348,
+      "offset": 5120,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 4608,
+      "offset": 5380,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 4820,
+      "offset": 5592,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 4983,
+      "offset": 5755,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Features\/Liveness Detection\/Scan Phases\/SelfieLivenessDetectionScanPhase.swift",
       "kind": "IntegerLiteral",
-      "offset": 5024,
+      "offset": 5796,
       "length": 1,
       "value": "0"
     },
