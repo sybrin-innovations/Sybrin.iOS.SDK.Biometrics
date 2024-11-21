@@ -55,6 +55,8 @@ import _SwiftConcurrencyShims
   @objc final public var enableOfflinePassiveLiveness: Swift.Bool
   @objc final public var customAuthorizationToken: Swift.String?
   final public var language: Sybrin_iOS_Biometrics.Language?
+  final public var apiVerion: Sybrin_iOS_Biometrics.APIVersion?
+  final public var livenessHeaders: [Swift.String : Any]
   @objc public init(license: Swift.String, environmentKey: Swift.String)
   @objc deinit
 }
@@ -277,6 +279,17 @@ public enum Language : Swift.Int, Swift.RawRepresentable {
   @objc override dynamic public init()
   @objc deinit
 }
+public enum APIVersion {
+  case V1
+  case V2
+  case V3
+  case V4
+  public static func == (a: Sybrin_iOS_Biometrics.APIVersion, b: Sybrin_iOS_Biometrics.APIVersion) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class Constants {
   public static var orchestrationURL: Swift.String?
   public static var orchestrationAPIKey: Swift.String?
@@ -371,3 +384,5 @@ public enum Language : Swift.Int, Swift.RawRepresentable {
 }
 extension Sybrin_iOS_Biometrics.Language : Swift.Equatable {}
 extension Sybrin_iOS_Biometrics.Language : Swift.Hashable {}
+extension Sybrin_iOS_Biometrics.APIVersion : Swift.Equatable {}
+extension Sybrin_iOS_Biometrics.APIVersion : Swift.Hashable {}

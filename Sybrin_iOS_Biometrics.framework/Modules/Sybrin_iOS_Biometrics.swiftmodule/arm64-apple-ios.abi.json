@@ -2890,6 +2890,261 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "apiVerion",
+            "printedName": "apiVerion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Sybrin_iOS_Biometrics.APIVersion?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIVersion",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                    "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21Sybrin_iOS_Biometrics0aC13ConfigurationC9apiVerionAA10APIVersionOSgvp",
+            "mangledName": "$s21Sybrin_iOS_Biometrics0aC13ConfigurationC9apiVerionAA10APIVersionOSgvp",
+            "moduleName": "Sybrin_iOS_Biometrics",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIVersion",
+                        "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                        "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics0aC13ConfigurationC9apiVerionAA10APIVersionOSgvg",
+                "mangledName": "$s21Sybrin_iOS_Biometrics0aC13ConfigurationC9apiVerionAA10APIVersionOSgvg",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIVersion",
+                        "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                        "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics0aC13ConfigurationC9apiVerionAA10APIVersionOSgvs",
+                "mangledName": "$s21Sybrin_iOS_Biometrics0aC13ConfigurationC9apiVerionAA10APIVersionOSgvs",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics0aC13ConfigurationC9apiVerionAA10APIVersionOSgvM",
+                "mangledName": "$s21Sybrin_iOS_Biometrics0aC13ConfigurationC9apiVerionAA10APIVersionOSgvM",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "livenessHeaders",
+            "printedName": "livenessHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21Sybrin_iOS_Biometrics0aC13ConfigurationC15livenessHeadersSDySSypGvp",
+            "mangledName": "$s21Sybrin_iOS_Biometrics0aC13ConfigurationC15livenessHeadersSDySSypGvp",
+            "moduleName": "Sybrin_iOS_Biometrics",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics0aC13ConfigurationC15livenessHeadersSDySSypGvg",
+                "mangledName": "$s21Sybrin_iOS_Biometrics0aC13ConfigurationC15livenessHeadersSDySSypGvg",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics0aC13ConfigurationC15livenessHeadersSDySSypGvs",
+                "mangledName": "$s21Sybrin_iOS_Biometrics0aC13ConfigurationC15livenessHeadersSDySSypGvs",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics0aC13ConfigurationC15livenessHeadersSDySSypGvM",
+                "mangledName": "$s21Sybrin_iOS_Biometrics0aC13ConfigurationC15livenessHeadersSDySSypGvM",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(license:environmentKey:)",
@@ -9353,6 +9608,290 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Sybrin_iOS_Biometrics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIVersion",
+        "printedName": "APIVersion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "V1",
+            "printedName": "V1",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Sybrin_iOS_Biometrics.APIVersion.Type) -> Sybrin_iOS_Biometrics.APIVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIVersion",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                    "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIVersion",
+                        "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                        "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO2V1yA2CmF",
+            "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO2V1yA2CmF",
+            "moduleName": "Sybrin_iOS_Biometrics"
+          },
+          {
+            "kind": "Var",
+            "name": "V2",
+            "printedName": "V2",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Sybrin_iOS_Biometrics.APIVersion.Type) -> Sybrin_iOS_Biometrics.APIVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIVersion",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                    "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIVersion",
+                        "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                        "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO2V2yA2CmF",
+            "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO2V2yA2CmF",
+            "moduleName": "Sybrin_iOS_Biometrics"
+          },
+          {
+            "kind": "Var",
+            "name": "V3",
+            "printedName": "V3",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Sybrin_iOS_Biometrics.APIVersion.Type) -> Sybrin_iOS_Biometrics.APIVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIVersion",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                    "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIVersion",
+                        "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                        "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO2V3yA2CmF",
+            "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO2V3yA2CmF",
+            "moduleName": "Sybrin_iOS_Biometrics"
+          },
+          {
+            "kind": "Var",
+            "name": "V4",
+            "printedName": "V4",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Sybrin_iOS_Biometrics.APIVersion.Type) -> Sybrin_iOS_Biometrics.APIVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIVersion",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                    "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Sybrin_iOS_Biometrics.APIVersion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIVersion",
+                        "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                        "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO2V4yA2CmF",
+            "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO2V4yA2CmF",
+            "moduleName": "Sybrin_iOS_Biometrics"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIVersion",
+                "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIVersion",
+                "printedName": "Sybrin_iOS_Biometrics.APIVersion",
+                "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO2eeoiySbAC_ACtFZ",
+            "moduleName": "Sybrin_iOS_Biometrics",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO9hashValueSivp",
+            "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO9hashValueSivp",
+            "moduleName": "Sybrin_iOS_Biometrics",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO9hashValueSivg",
+                "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO9hashValueSivg",
+                "moduleName": "Sybrin_iOS_Biometrics",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO4hash4intoys6HasherVz_tF",
+            "moduleName": "Sybrin_iOS_Biometrics",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21Sybrin_iOS_Biometrics10APIVersionO",
+        "mangledName": "$s21Sybrin_iOS_Biometrics10APIVersionO",
+        "moduleName": "Sybrin_iOS_Biometrics",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Sybrin_iOS_Common",
         "printedName": "Sybrin_iOS_Common",
         "declKind": "Import",
@@ -15353,261 +15892,268 @@
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 509,
+      "offset": 514,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 524,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 528,
+      "offset": 533,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "FloatLiteral",
-      "offset": 538,
+      "offset": 543,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 604,
+      "offset": 609,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 614,
+      "offset": 619,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 623,
+      "offset": 628,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 633,
+      "offset": 638,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 700,
+      "offset": 705,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 710,
+      "offset": 715,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 719,
+      "offset": 724,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 729,
+      "offset": 734,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 795,
+      "offset": 800,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 805,
+      "offset": 810,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 814,
+      "offset": 819,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 824,
+      "offset": 829,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 876,
+      "offset": 881,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 924,
+      "offset": 929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "FloatLiteral",
-      "offset": 1038,
+      "offset": 1043,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1196,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1259,
+      "offset": 1264,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1269,
+      "offset": 1274,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1278,
+      "offset": 1283,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1288,
+      "offset": 1293,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1349,
+      "offset": 1354,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1420,
+      "offset": 1425,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1430,
+      "offset": 1435,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1439,
+      "offset": 1444,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1449,
+      "offset": 1454,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1497,
+      "offset": 1502,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1549,
+      "offset": 1554,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1593,
+      "offset": 1598,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1691,
+      "offset": 1696,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1730,
+      "offset": 1735,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1824,
+      "offset": 1829,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1870,
+      "offset": 1875,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 1938,
+      "offset": 1943,
       "length": 1,
       "value": "4"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
+      "kind": "Dictionary",
+      "offset": 2096,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
@@ -15619,35 +16165,35 @@
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4928,
+      "offset": 5243,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5086,
+      "offset": 5401,
       "length": 10,
       "value": "\"FILIPINO\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5147,
+      "offset": 5462,
       "length": 9,
       "value": "\"English\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5256,
+      "offset": 5571,
       "length": 10,
       "value": "\"FILIPINO\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Models\/SybrinBiometricsConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5318,
+      "offset": 5633,
       "length": 9,
       "value": "\"ENGLISH\""
     },
@@ -15731,1512 +16277,1911 @@
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
-      "length": 18,
-      "value": "\"Application\/json\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1449,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1523,
-      "length": 10,
-      "value": "\"ObjectID\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1535,
-      "length": 34,
-      "value": "\"SybrinBiometricsSDKAuditingModel\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1583,
-      "length": 15,
-      "value": "\"CorrelationID\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1627,
-      "length": 16,
-      "value": "\"SuccessfulScan\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1673,
-      "length": 9,
-      "value": "\"Feature\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1705,
-      "length": 15,
-      "value": "\"FeatureResult\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1749,
-      "length": 22,
-      "value": "\"FeatureFailureReason\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1807,
-      "length": 21,
-      "value": "\"ExecutionTimeMillis\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1863,
-      "length": 12,
-      "value": "\"PhoneModel\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1901,
-      "length": 11,
-      "value": "\"OSVersion\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1937,
-      "length": 10,
-      "value": "\"Platform\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1949,
-      "length": 5,
-      "value": "\"iOS\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2418,
-      "length": 35,
-      "value": "\"Received an unknown response code\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2668,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2728,
-      "length": 45,
-      "value": "\"Received an invalid (not 200) response code\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2819,
-      "length": 38,
-      "value": "\"Response Code: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2856,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 2984,
-      "length": 30,
-      "value": "\"Raw Response: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3013,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3122,
-      "length": 45,
-      "value": "\"Error: Response Code: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3166,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3178,
-      "length": 23,
-      "value": "\"Response code not 200\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3285,
-      "length": 34,
-      "value": "\"Failed to decode to error object\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3365,
-      "length": 38,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3402,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3592,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3819,
-      "length": 26,
-      "value": "\"Request body parse error\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3879,
-      "length": 38,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3916,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4213,
-      "length": 29,
-      "value": "\"api\/FaceCompare\/CompareFace\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4797,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4834,
-      "length": 43,
-      "value": "\"bad request \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 4876,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5173,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5242,
-      "length": 22,
-      "value": "\"Bearer \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5263,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5286,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5336,
+      "offset": 1612,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5364,
+      "offset": 1640,
       "length": 7,
       "value": "\"UseV2\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5406,
+      "offset": 1714,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5434,
+      "offset": 1742,
       "length": 7,
       "value": "\"UseV3\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5493,
-      "length": 43,
-      "value": "\"multipart\/form-data; boundary=\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5535,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5558,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5740,
-      "length": 15,
-      "value": "\"CorrelationID\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5855,
-      "length": 42,
-      "value": "\"attached target image \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5896,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 5927,
-      "length": 7,
-      "value": "\"face1\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 6017,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6056,
-      "length": 23,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6074,
-      "length": 1,
-      "value": "\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6133,
-      "length": 76,
-      "value": "\"Content-Disposition: form-data; name=\"target\"; filename=\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6202,
-      "length": 1,
-      "value": "\"\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6263,
-      "length": 34,
-      "value": "\"Content-Type: image\/jpeg\r\n\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6408,
-      "length": 36,
-      "value": "\"targetData is not a valid jpegData\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6486,
-      "length": 28,
-      "value": "\"Target: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6513,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7212,
-      "length": 7,
-      "value": "\"face2\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 7337,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7380,
-      "length": 23,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7398,
-      "length": 1,
-      "value": "\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7461,
-      "length": 75,
-      "value": "\"Content-Disposition: form-data; name=\"faces\"; filename=\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7529,
-      "length": 1,
-      "value": "\"\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7594,
-      "length": 34,
-      "value": "\"Content-Type: image\/jpeg\r\n\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7749,
-      "length": 34,
-      "value": "\"faceData is not a valid jpegData\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7829,
-      "length": 18,
-      "value": "\"Target: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7846,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 8546,
-      "length": 29,
-      "value": "\"reqbody \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 8574,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 8607,
-      "length": 25,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 8625,
-      "length": 2,
-      "value": "\"--\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 9366,
-      "length": 32,
-      "value": "\"compare faces data \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 9397,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 9601,
-      "length": 24,
-      "value": "\"passing error \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 9624,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 9811,
-      "length": 24,
-      "value": "\"network error \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 9834,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 10410,
-      "length": 66,
-      "value": "\"https:\/\/biometric.sybrin.com\/api\/TrainingImage\/SaveTrainingFiles\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 10689,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 10858,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 10919,
-      "length": 43,
-      "value": "\"multipart\/form-data; boundary=\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 10961,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 10984,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11025,
-      "length": 46,
-      "value": "\"ios\/\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11043,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11070,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11093,
-      "length": 8,
-      "value": "\"UserID\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11157,
-      "length": 23,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11175,
-      "length": 1,
-      "value": "\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11222,
-      "length": 82,
-      "value": "\"Content-Disposition: form-data; name=\"data\"; filename=\"Data_\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11297,
-      "length": 1,
-      "value": "\"\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11346,
-      "length": 27,
-      "value": "\"Content-Type: *\/*\r\n\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11443,
-      "length": 23,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11461,
-      "length": 1,
-      "value": "\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11508,
-      "length": 84,
-      "value": "\"Content-Disposition: form-data; name=\"label\"; filename=\"Label_\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11585,
-      "length": 1,
-      "value": "\"\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11634,
-      "length": 27,
-      "value": "\"Content-Type: *\/*\r\n\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11731,
-      "length": 23,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11749,
-      "length": 1,
-      "value": "\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11796,
-      "length": 84,
-      "value": "\"Content-Disposition: form-data; name=\"model\"; filename=\"Model_\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11873,
-      "length": 1,
-      "value": "\"\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 11922,
-      "length": 27,
-      "value": "\"Content-Type: *\/*\r\n\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 12019,
-      "length": 25,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 12037,
-      "length": 2,
-      "value": "\"--\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 12975,
-      "length": 72,
-      "value": "\"https:\/\/biometric.sybrin.com\/api\/TrainingImage\/RetrievingTrainingFiles\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 13260,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 13428,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 13489,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 13517,
-      "length": 10,
-      "value": "\"FileName\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 13554,
-      "length": 46,
-      "value": "\"ios\/\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 13572,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 13599,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 13622,
-      "length": 8,
-      "value": "\"UserID\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 14138,
-      "length": 14,
-      "value": "\"TestLiveness\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 14236,
-      "length": 494,
-      "value": "\"4TCwugAK2AW3mphu+F5RovGmOEj5oM63iQnUlHyVJtRDohz5qULCOc6GhnyP0gi9UKPC6M9ta\/QZIPHHdgGwiTCnBsTIN7lAL8+djeMsDFt23e3BfjRmDQ7n1nJPnwA25Pdwlcxyv4Q5BD0khUzCJVM2vkli1gy7FOvJJ\/IN72Qu\/W8DVXn3dvulMwRH5\/fZYYX8Fq+LGimXUmEc5QpH9dWYgO6489bxczmWyvzyEfOJZASuIkCpABcaoAakcEzDGnVo7GYaqnUAHM3pb2VFpGkObTO01mL8t71+MUX7Rm\/2DKYZMbnr2Ep1DWfs2qsrGYq1ffYWoof5N6AAvIoYAgmq78OemK0efUO3\/EIB0fzAWg2F36BMYaI4sLmTmp76BrmNKhsPWM3TZjXYj9xNJoFV6j0SVtYVNsa4R8BCWDm3N2wIn6EJ5uwTYsIJQFZtZjjQVNY\/hRulKHbD+ZbkB5xwOPuhrAbvrMFGyo4ZYNw=\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 14861,
-      "length": 13,
-      "value": "\"c \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 14873,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 15002,
-      "length": 57,
-      "value": "\"https:\/\/soma.sybrin.com\/api\/Authentication\/GetAuthToken\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 15272,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 15343,
-      "length": 10,
-      "value": "\"Username\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 15441,
-      "length": 8,
-      "value": "\"APIKey\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 15749,
-      "length": 35,
-      "value": "\"Received an unknown response code\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15999,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16059,
-      "length": 45,
-      "value": "\"Received an invalid (not 200) response code\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16150,
-      "length": 38,
-      "value": "\"Response Code: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16187,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16314,
-      "length": 30,
-      "value": "\"Raw Response: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16343,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16663,
-      "length": 44,
-      "value": "\"Error Message: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16706,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16823,
-      "length": 32,
-      "value": "\"Error Details: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 16854,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 17073,
-      "length": 34,
-      "value": "\"Failed to decode to error object\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 17153,
-      "length": 38,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 17190,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 17783,
-      "length": 30,
-      "value": "\"Failed to decode JSON object\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 17946,
-      "length": 30,
-      "value": "\"Raw Response: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 17975,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 18295,
-      "length": 44,
-      "value": "\"Error Message: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 18338,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 18455,
-      "length": 32,
-      "value": "\"Error Details: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 18486,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 18705,
-      "length": 34,
-      "value": "\"Failed to decode to error object\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 18785,
-      "length": 38,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 18822,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 19257,
-      "length": 33,
-      "value": "\"api\/FaceLiveness\/VerifyLiveness\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 19841,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20291,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20382,
-      "length": 22,
-      "value": "\"Bearer \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20403,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20426,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20476,
-      "length": 3,
-      "value": "\"2\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20501,
-      "length": 19,
-      "value": "\"LivenessProviders\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20555,
-      "length": 43,
-      "value": "\"multipart\/form-data; boundary=\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20597,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20620,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20669,
+      "offset": 1816,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 20697,
+      "offset": 1844,
       "length": 7,
-      "value": "\"UseV2\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20739,
-      "length": 6,
-      "value": "\"true\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20767,
-      "length": 7,
-      "value": "\"UseV3\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 20959,
-      "length": 15,
-      "value": "\"CorrelationID\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 21092,
-      "length": 40,
-      "value": "\"Invalid image (could not get png data)\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 21325,
-      "length": 23,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 21343,
-      "length": 1,
-      "value": "\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 21398,
-      "length": 91,
-      "value": "\"Content-Disposition: form-data; name=\"media\"; filename=\"ios_passive_liveness.png\"\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 21539,
-      "length": 27,
-      "value": "\"Content-Type: *\/*\r\n\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 21656,
-      "length": 25,
-      "value": "\"\r\n--\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 21674,
-      "length": 2,
-      "value": "\"--\r\n\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 22097,
-      "length": 35,
-      "value": "\"Received an unknown response code\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22387,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 22463,
-      "length": 45,
-      "value": "\"Received an invalid (not 200) response code\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 22564,
-      "length": 38,
-      "value": "\"Response Code: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 22601,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 22744,
-      "length": 30,
-      "value": "\"Raw Response: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 22773,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 23133,
-      "length": 44,
-      "value": "\"Error Message: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 23176,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 23309,
-      "length": 32,
-      "value": "\"Error Details: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 23340,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 23836,
-      "length": 34,
-      "value": "\"Failed to decode to error object\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 23924,
-      "length": 38,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 23961,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 24741,
-      "length": 30,
-      "value": "\"Failed to decode JSON object\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 24920,
-      "length": 30,
-      "value": "\"Raw Response: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 24949,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 25375,
-      "length": 44,
-      "value": "\"Error Message: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 25418,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 25551,
-      "length": 32,
-      "value": "\"Error Details: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 25582,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 25833,
-      "length": 34,
-      "value": "\"Failed to decode to error object\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 25921,
-      "length": 38,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 25958,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 26603,
-      "length": 27,
-      "value": "\"Bad media source received\""
+      "value": "\"UseV4\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 26635,
+      "offset": 2003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 26730,
-      "length": 19,
-      "value": "\"Face not detected\""
+      "offset": 2235,
+      "length": 10,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 26995,
-      "length": 33,
-      "value": "\"api\/Authentication\/GetAuthToken\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 27284,
+      "offset": 2244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 27641,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 27758,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 27782,
-      "length": 8,
-      "value": "\"APIKey\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 27817,
+      "offset": 2345,
       "length": 18,
       "value": "\"Application\/json\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 27857,
+      "offset": 2385,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 27931,
+      "offset": 2459,
       "length": 10,
       "value": "\"ObjectID\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 27943,
-      "length": 32,
-      "value": "\"SybrinIdentitySDKAuditingModel\""
+      "offset": 2471,
+      "length": 34,
+      "value": "\"SybrinBiometricsSDKAuditingModel\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 27989,
+      "offset": 2519,
+      "length": 15,
+      "value": "\"CorrelationID\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2563,
+      "length": 16,
+      "value": "\"SuccessfulScan\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2609,
+      "length": 9,
+      "value": "\"Feature\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2641,
+      "length": 15,
+      "value": "\"FeatureResult\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2685,
+      "length": 22,
+      "value": "\"FeatureFailureReason\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2743,
+      "length": 21,
+      "value": "\"ExecutionTimeMillis\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2799,
+      "length": 12,
+      "value": "\"PhoneModel\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2837,
+      "length": 11,
+      "value": "\"OSVersion\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2873,
       "length": 10,
       "value": "\"Platform\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 28001,
+      "offset": 2885,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "Array",
-      "offset": 28435,
-      "length": 2,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 3354,
+      "length": 35,
+      "value": "\"Received an unknown response code\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 28575,
-      "length": 11,
-      "value": "\"AuthToken\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 28620,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 28673,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 28682,
+      "kind": "IntegerLiteral",
+      "offset": 3604,
       "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3664,
+      "length": 45,
+      "value": "\"Received an invalid (not 200) response code\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3755,
+      "length": 38,
+      "value": "\"Response Code: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3792,
+      "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 28806,
-      "length": 26,
-      "value": "\"Request body parse error\""
+      "offset": 3920,
+      "length": 30,
+      "value": "\"Raw Response: \""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 28866,
+      "offset": 3949,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4058,
+      "length": 45,
+      "value": "\"Error: Response Code: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4102,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4114,
+      "length": 23,
+      "value": "\"Response code not 200\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4221,
+      "length": 34,
+      "value": "\"Failed to decode to error object\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4301,
       "length": 38,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
       "kind": "StringLiteral",
-      "offset": 28903,
+      "offset": 4338,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4528,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4755,
+      "length": 26,
+      "value": "\"Request body parse error\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4815,
+      "length": 38,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4852,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5149,
+      "length": 29,
+      "value": "\"api\/FaceCompare\/CompareFace\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5733,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5770,
+      "length": 43,
+      "value": "\"bad request \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5812,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6109,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6178,
+      "length": 22,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6199,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6222,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6667,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6695,
+      "length": 7,
+      "value": "\"UseV2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6793,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6821,
+      "length": 7,
+      "value": "\"UseV3\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6919,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6947,
+      "length": 7,
+      "value": "\"UseV4\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7154,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7418,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7427,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7567,
+      "length": 43,
+      "value": "\"multipart\/form-data; boundary=\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7609,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7632,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7814,
+      "length": 15,
+      "value": "\"CorrelationID\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7929,
+      "length": 42,
+      "value": "\"attached target image \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7970,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8001,
+      "length": 7,
+      "value": "\"face1\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 8091,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8130,
+      "length": 23,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8148,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8207,
+      "length": 76,
+      "value": "\"Content-Disposition: form-data; name=\"target\"; filename=\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8276,
+      "length": 1,
+      "value": "\"\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8337,
+      "length": 34,
+      "value": "\"Content-Type: image\/jpeg\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8482,
+      "length": 36,
+      "value": "\"targetData is not a valid jpegData\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8560,
+      "length": 28,
+      "value": "\"Target: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 8587,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9286,
+      "length": 7,
+      "value": "\"face2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 9411,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9454,
+      "length": 23,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9472,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9535,
+      "length": 75,
+      "value": "\"Content-Disposition: form-data; name=\"faces\"; filename=\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9603,
+      "length": 1,
+      "value": "\"\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9668,
+      "length": 34,
+      "value": "\"Content-Type: image\/jpeg\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9823,
+      "length": 34,
+      "value": "\"faceData is not a valid jpegData\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9903,
+      "length": 18,
+      "value": "\"Target: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 9920,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 10683,
+      "length": 25,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 10701,
+      "length": 2,
+      "value": "\"--\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 11442,
+      "length": 32,
+      "value": "\"compare faces data \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 11473,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 11677,
+      "length": 24,
+      "value": "\"passing error \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 11700,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 11887,
+      "length": 24,
+      "value": "\"network error \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 11910,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 12486,
+      "length": 66,
+      "value": "\"https:\/\/biometric.sybrin.com\/api\/TrainingImage\/SaveTrainingFiles\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 12955,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 12983,
+      "length": 7,
+      "value": "\"UseV2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13057,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13085,
+      "length": 7,
+      "value": "\"UseV3\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13159,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13187,
+      "length": 7,
+      "value": "\"UseV4\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13578,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13587,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13683,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13852,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13913,
+      "length": 43,
+      "value": "\"multipart\/form-data; boundary=\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13955,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13978,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14019,
+      "length": 46,
+      "value": "\"ios\/\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14037,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14064,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14087,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14151,
+      "length": 23,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14169,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14216,
+      "length": 82,
+      "value": "\"Content-Disposition: form-data; name=\"data\"; filename=\"Data_\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14291,
+      "length": 1,
+      "value": "\"\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14340,
+      "length": 27,
+      "value": "\"Content-Type: *\/*\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14437,
+      "length": 23,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14455,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14502,
+      "length": 84,
+      "value": "\"Content-Disposition: form-data; name=\"label\"; filename=\"Label_\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14579,
+      "length": 1,
+      "value": "\"\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14628,
+      "length": 27,
+      "value": "\"Content-Type: *\/*\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14725,
+      "length": 23,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14743,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14790,
+      "length": 84,
+      "value": "\"Content-Disposition: form-data; name=\"model\"; filename=\"Model_\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14867,
+      "length": 1,
+      "value": "\"\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14916,
+      "length": 27,
+      "value": "\"Content-Type: *\/*\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 15013,
+      "length": 25,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 15031,
+      "length": 2,
+      "value": "\"--\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 15969,
+      "length": 72,
+      "value": "\"https:\/\/biometric.sybrin.com\/api\/TrainingImage\/RetrievingTrainingFiles\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 16444,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 16472,
+      "length": 7,
+      "value": "\"UseV2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 16546,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 16574,
+      "length": 7,
+      "value": "\"UseV3\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 16648,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 16676,
+      "length": 7,
+      "value": "\"UseV4\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16835,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17067,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17076,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17172,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17340,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17401,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17429,
+      "length": 10,
+      "value": "\"FileName\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17466,
+      "length": 46,
+      "value": "\"ios\/\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17484,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17511,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 17534,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 18050,
+      "length": 14,
+      "value": "\"TestLiveness\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 18148,
+      "length": 494,
+      "value": "\"4TCwugAK2AW3mphu+F5RovGmOEj5oM63iQnUlHyVJtRDohz5qULCOc6GhnyP0gi9UKPC6M9ta\/QZIPHHdgGwiTCnBsTIN7lAL8+djeMsDFt23e3BfjRmDQ7n1nJPnwA25Pdwlcxyv4Q5BD0khUzCJVM2vkli1gy7FOvJJ\/IN72Qu\/W8DVXn3dvulMwRH5\/fZYYX8Fq+LGimXUmEc5QpH9dWYgO6489bxczmWyvzyEfOJZASuIkCpABcaoAakcEzDGnVo7GYaqnUAHM3pb2VFpGkObTO01mL8t71+MUX7Rm\/2DKYZMbnr2Ep1DWfs2qsrGYq1ffYWoof5N6AAvIoYAgmq78OemK0efUO3\/EIB0fzAWg2F36BMYaI4sLmTmp76BrmNKhsPWM3TZjXYj9xNJoFV6j0SVtYVNsa4R8BCWDm3N2wIn6EJ5uwTYsIJQFZtZjjQVNY\/hRulKHbD+ZbkB5xwOPuhrAbvrMFGyo4ZYNw=\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 18773,
+      "length": 13,
+      "value": "\"c \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 18785,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 18914,
+      "length": 57,
+      "value": "\"https:\/\/soma.sybrin.com\/api\/Authentication\/GetAuthToken\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 19374,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 19402,
+      "length": 7,
+      "value": "\"UseV2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 19476,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 19504,
+      "length": 7,
+      "value": "\"UseV3\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 19578,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 19606,
+      "length": 7,
+      "value": "\"UseV4\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19765,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 19997,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 20006,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 20102,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 20173,
+      "length": 10,
+      "value": "\"Username\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 20271,
+      "length": 8,
+      "value": "\"APIKey\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 20579,
+      "length": 35,
+      "value": "\"Received an unknown response code\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20829,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 20889,
+      "length": 45,
+      "value": "\"Received an invalid (not 200) response code\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 20980,
+      "length": 38,
+      "value": "\"Response Code: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21017,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21144,
+      "length": 30,
+      "value": "\"Raw Response: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21173,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21493,
+      "length": 44,
+      "value": "\"Error Message: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21536,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21653,
+      "length": 32,
+      "value": "\"Error Details: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21684,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21903,
+      "length": 34,
+      "value": "\"Failed to decode to error object\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 21983,
+      "length": 38,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 22020,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 22613,
+      "length": 30,
+      "value": "\"Failed to decode JSON object\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 22776,
+      "length": 30,
+      "value": "\"Raw Response: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 22805,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 23125,
+      "length": 44,
+      "value": "\"Error Message: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 23168,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 23285,
+      "length": 32,
+      "value": "\"Error Details: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 23316,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 23535,
+      "length": 34,
+      "value": "\"Failed to decode to error object\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 23615,
+      "length": 38,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 23652,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 24087,
+      "length": 33,
+      "value": "\"api\/FaceLiveness\/VerifyLiveness\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 24671,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 25121,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 25412,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 25440,
+      "length": 7,
+      "value": "\"UseV2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 25538,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 25566,
+      "length": 7,
+      "value": "\"UseV3\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 25664,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 25692,
+      "length": 7,
+      "value": "\"UseV4\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25899,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26163,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26172,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26312,
+      "length": 22,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26333,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26356,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26406,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26431,
+      "length": 19,
+      "value": "\"LivenessProviders\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26485,
+      "length": 43,
+      "value": "\"multipart\/form-data; boundary=\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26527,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26550,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26599,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26627,
+      "length": 7,
+      "value": "\"UseV2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26669,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26697,
+      "length": 7,
+      "value": "\"UseV3\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 26889,
+      "length": 15,
+      "value": "\"CorrelationID\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 27022,
+      "length": 40,
+      "value": "\"Invalid image (could not get png data)\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 27255,
+      "length": 23,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 27273,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 27328,
+      "length": 91,
+      "value": "\"Content-Disposition: form-data; name=\"media\"; filename=\"ios_passive_liveness.png\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 27469,
+      "length": 27,
+      "value": "\"Content-Type: *\/*\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 27586,
+      "length": 25,
+      "value": "\"\r\n--\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 27604,
+      "length": 2,
+      "value": "\"--\r\n\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 28027,
+      "length": 35,
+      "value": "\"Received an unknown response code\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28317,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 28393,
+      "length": 45,
+      "value": "\"Received an invalid (not 200) response code\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 28494,
+      "length": 38,
+      "value": "\"Response Code: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 28531,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 28674,
+      "length": 30,
+      "value": "\"Raw Response: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 28703,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 29063,
+      "length": 44,
+      "value": "\"Error Message: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 29106,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 29239,
+      "length": 32,
+      "value": "\"Error Details: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 29270,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 29766,
+      "length": 34,
+      "value": "\"Failed to decode to error object\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 29854,
+      "length": 38,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 29891,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 30671,
+      "length": 30,
+      "value": "\"Failed to decode JSON object\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 30850,
+      "length": 30,
+      "value": "\"Raw Response: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 30879,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 31305,
+      "length": 44,
+      "value": "\"Error Message: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 31348,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 31481,
+      "length": 32,
+      "value": "\"Error Details: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 31512,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 31763,
+      "length": 34,
+      "value": "\"Failed to decode to error object\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 31851,
+      "length": 38,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 31888,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 32533,
+      "length": 27,
+      "value": "\"Bad media source received\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32565,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 32660,
+      "length": 19,
+      "value": "\"Face not detected\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 32925,
+      "length": 33,
+      "value": "\"api\/Authentication\/GetAuthToken\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 33214,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 33571,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 33806,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 33834,
+      "length": 7,
+      "value": "\"UseV2\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 33908,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 33936,
+      "length": 7,
+      "value": "\"UseV3\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34010,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34038,
+      "length": 7,
+      "value": "\"UseV4\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34197,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34429,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34438,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34606,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34630,
+      "length": 8,
+      "value": "\"APIKey\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34665,
+      "length": 18,
+      "value": "\"Application\/json\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34705,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34779,
+      "length": 10,
+      "value": "\"ObjectID\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34791,
+      "length": 32,
+      "value": "\"SybrinIdentitySDKAuditingModel\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34837,
+      "length": 10,
+      "value": "\"Platform\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 34849,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "Array",
+      "offset": 35283,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 35423,
+      "length": 11,
+      "value": "\"AuthToken\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 35468,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 35521,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 35530,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 35654,
+      "length": 26,
+      "value": "\"Request body parse error\""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 35714,
+      "length": 38,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/default\/Applications\/Jenkins\/workspace\/Innovations\/Sybrin.iOS.SDK\/Sybrin.iOS.Biometrics\/Handlers\/NetworkCallHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 35751,
       "length": 15,
       "value": "\"\""
     },
