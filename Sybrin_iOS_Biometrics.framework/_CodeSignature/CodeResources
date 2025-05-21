@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		7aB1kj7gBhWUb0tpGJpXd5l6YbE=
+		SAn6D8V+IL9sAfFaOvh/GmB+Gug=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -74,15 +74,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KuDm4Lb6WJU0EQoIuWRnaDFutwU=
+		wGp2XquUcofYhb5lH7rim/5exJw=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		sUuX2ZrvW+JWZQgbQqBkcA1w5Kg=
+		Ni4U+3mLUv73yxbEZH5OtG7N8Go=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/D4NBmVDNReND4GTERzt3nbweKI=
+		QPKUdORGe4mpmBaNGzgQAWpHC1Q=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		m9xPKFUhKNBbI0xtBH0vGQde3VM=
+		V/oYw1Z8a8nz7o2RQGg8eN3996o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GPUWPTljgtSJXTVgycbTYCnq7x2KeXdmxeP3VnPNnuM=
+			+3sbUhX9IXXRec6B7MjbHqrko8bhEiZd5ZBU2lQ06gI=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -301,14 +301,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YF+FjNIzcBHSmvbEIa+JOFUau+cJwcQuMxiojrBcf+A=
+			wiMvDo3HXTl3OdoT+49677lenB2RbI3hCJuYoh4mXPQ=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zDIrgisLJb0D3KtnXRdAy+w2cZIcN/NAocs2NgdJD70=
+			PtWHWphvuylfH1lSBQrLSQajWZMZeQsgE3UuUzRfpT0=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -336,7 +336,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MDR35Jbj0EhUTuK+pIObFpTTdE9Kpj1KMp+9P3UFLHE=
+			LPM5KLtzDqOws5W5fOc+mKV/KJkX91vgGKV4zOb1It4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
