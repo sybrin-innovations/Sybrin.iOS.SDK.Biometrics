@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		cXTN2KHnl/vrO1HsR7s7yNLB70w=
+		9ZLPtaIaDz1MEFoGCpPqoS3PVcs=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		SAn6D8V+IL9sAfFaOvh/GmB+Gug=
+		F0+YkNts8n67B4DyqkxFmVolkiU=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/Sybrin_iOS_Biometrics-Swift.h</key>
 		<data>
-		GmbO70FDoExfCUfFPuaM5Hvz4u0=
+		9h/223AEFLCvv0wemjD+cCorZWk=
 		</data>
 		<key>Headers/Sybrin_iOS_Biometrics.h</key>
 		<data>
@@ -74,31 +74,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wGp2XquUcofYhb5lH7rim/5exJw=
+		CGD0Y5skawPMpL3hM4Snlc6pRSE=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Ni4U+3mLUv73yxbEZH5OtG7N8Go=
+		6l6SjvIBf/qiYcRXm24d7sam5Mo=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		QPKUdORGe4mpmBaNGzgQAWpHC1Q=
+		/1RooLXQIPCoUU8BKwPlerdYMGY=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		qwFxrnjJlNYjGP/ZZPQizPJOs4A=
+		/3Xc+Jv0sW8KtHwx7J8xaOA9jWo=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		e+EBHMNBSfJrsn4LWN5L9INIV1E=
+		JffHNLWrRKR0kjfdM5zMIR5GZUg=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qwFxrnjJlNYjGP/ZZPQizPJOs4A=
+		/3Xc+Jv0sW8KtHwx7J8xaOA9jWo=
 		</data>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		V/oYw1Z8a8nz7o2RQGg8eN3996o=
+		L+AC9AU/6NkPaP/oFT7+0E0O+pk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -182,7 +182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJgf3EipQwH6j4OK8OMcGYf79xMNtoRnPzLbKFVrGcI=
+			3yHtpxQr/DscqvFtGr7DGTtww0kO2jQR7+8ZKH20amQ=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+3sbUhX9IXXRec6B7MjbHqrko8bhEiZd5ZBU2lQ06gI=
+			XJs7TVWyXe3uyM2gg2OtPT9xw3mZ+J6pX0l4Q/+tNzc=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -287,7 +287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Cc9dg89zVjd7OuYEYwsNGtwLRj8IJ6frkY7i6Wd+6I=
+			ckPyEMQ2BSa0aPLj94X3xhzgGhlHC9o81LX9wxYpZD8=
 			</data>
 		</dict>
 		<key>Headers/Sybrin_iOS_Biometrics.h</key>
@@ -301,42 +301,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wiMvDo3HXTl3OdoT+49677lenB2RbI3hCJuYoh4mXPQ=
+			LO5VXHXBT3RSwDWXplukS2w/TJyVA5OCXu/SxJPHaqs=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PtWHWphvuylfH1lSBQrLSQajWZMZeQsgE3UuUzRfpT0=
+			P6OBSuFLyjfHgBQlm526H+FCZHGvAB6lF5m4FcqC+ys=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/OvAl7YnCOIs36B+uMUDlcMv10ZNTZPiN1NN1QZA1y0=
+			s8wtr9bYl5iIQFb34OLcTEMi30Wo69LXAc4O6XKH07I=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ttiijl2H3hx2Xho2C6BZ2pbLE+IBGRz0oFC5t9a8Wjo=
+			MNkliKjrG/9ksTj/iRRaSOZCOw8RrqtrjxciA2E33vA=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/OvAl7YnCOIs36B+uMUDlcMv10ZNTZPiN1NN1QZA1y0=
+			s8wtr9bYl5iIQFb34OLcTEMi30Wo69LXAc4O6XKH07I=
 			</data>
 		</dict>
 		<key>Modules/Sybrin_iOS_Biometrics.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LPM5KLtzDqOws5W5fOc+mKV/KJkX91vgGKV4zOb1It4=
+			WT6vn0BSKaxblCUuca8BEqfniq32vXmkIL7/r28YRHw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
