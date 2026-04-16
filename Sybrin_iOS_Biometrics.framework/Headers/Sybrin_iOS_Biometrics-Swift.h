@@ -376,37 +376,6 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics30BlinkLivenessDetectionQuestion")
 @end
 
 
-SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics29DefaultLivenessTrainingAction")
-@interface DefaultLivenessTrainingAction : LivenessDetectionQuestion
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics31FacialTrainingActionOnDetection")
-@interface FacialTrainingActionOnDetection : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull actionLabel;
-@property (nonatomic, readonly) BOOL actionCompleted;
-@property (nonatomic, readonly, strong) UIImage * _Nullable actionImage;
-@property (nonatomic, readonly, copy) NSString * _Nullable actionImagePath;
-@property (nonatomic, readonly, strong) UIImage * _Nullable croppedActionImage;
-@property (nonatomic, readonly, copy) NSString * _Nullable croppedActionImagePath;
-@property (nonatomic, readonly, copy) NSString * _Nonnull focusLabel;
-@property (nonatomic, readonly) BOOL focusCompleted;
-@property (nonatomic, readonly, strong) UIImage * _Nullable focusImage;
-@property (nonatomic, readonly, copy) NSString * _Nullable focusImagePath;
-@property (nonatomic, readonly, strong) UIImage * _Nullable croppedFocusImage;
-@property (nonatomic, readonly, copy) NSString * _Nullable croppedFocusImagePath;
-- (void)saveImages;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics21DefaultTrainingAction")
-@interface DefaultTrainingAction : FacialTrainingActionOnDetection
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 
 @class FacialComparisonResult;
 
@@ -426,54 +395,6 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics22FacialComparisonResult")
 @property (nonatomic, readonly) NSInteger result;
 - (void)saveImages;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics36FacialRecognitionInitializationModel")
-@interface FacialRecognitionInitializationModel : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull identifier;
-@property (nonatomic, readonly) float timeTakenMilliseconds;
-@property (nonatomic, readonly) BOOL modelDownloaded;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics22FacialRecognitionModel")
-@interface FacialRecognitionModel : BiometricsModel
-@property (nonatomic, readonly, copy) NSString * _Nonnull identifier;
-@property (nonatomic, readonly, strong) UIImage * _Nonnull recognizedImage;
-@property (nonatomic, readonly, copy) NSString * _Nullable recognizedImagePath;
-@property (nonatomic, readonly, strong) UIImage * _Nonnull croppedRecognizedImage;
-@property (nonatomic, readonly, copy) NSString * _Nullable croppedRecognizedImagePath;
-@property (nonatomic, readonly) float confidence;
-- (void)saveImages;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics30FacialRecognitionTrainingModel")
-@interface FacialRecognitionTrainingModel : LivenessDetectionModel
-@property (nonatomic, readonly, copy) NSArray<FacialTrainingActionOnDetection *> * _Nonnull livenessDetectionQuestions;
-- (NSArray<UIImage *> * _Nonnull)actionImages SWIFT_WARN_UNUSED_RESULT;
-- (NSArray<UIImage *> * _Nonnull)focusImages SWIFT_WARN_UNUSED_RESULT;
-- (void)saveImages;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics19FacialTrainingModel")
-@interface FacialTrainingModel : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull identifier;
-@property (nonatomic, readonly) double trainingTimeTakenMilliseconds;
-@property (nonatomic, readonly) double uploadTimeTakenMilliseconds;
-@property (nonatomic, readonly, copy) NSArray<UIImage *> * _Nonnull trainedImages;
-@property (nonatomic, readonly) BOOL uploaded;
-- (void)uploadModelWithSuccess:(void (^ _Nullable)(double))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -515,15 +436,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SybrinBiomet
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)changeLogLevelTo:(enum LogLevel)logLevel;
-- (void)openActiveLivenessDetectionOn:(UIViewController * _Nonnull)viewController actions:(NSArray<LivenessDetectionQuestion *> * _Nullable)actions doneLaunching:(void (^ _Nullable)(BOOL, NSString * _Nullable))doneLaunching success:(void (^ _Nullable)(ActiveLivenessDetectionModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure cancel:(void (^ _Nullable)(void))cancel;
-- (void)openFacialRecognitionTrainingOn:(UIViewController * _Nonnull)viewController actions:(NSArray<FacialTrainingActionOnDetection *> * _Nullable)actions doneLaunching:(void (^ _Nullable)(BOOL, NSString * _Nullable))doneLaunching success:(void (^ _Nullable)(FacialRecognitionTrainingModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure cancel:(void (^ _Nullable)(void))cancel;
-- (void)openActivePassiveLivenessDetectionOn:(UIViewController * _Nonnull)viewController actions:(NSArray<LivenessDetectionQuestion *> * _Nullable)actions doneLaunching:(void (^ _Nullable)(BOOL, NSString * _Nullable))doneLaunching success:(void (^ _Nullable)(ActivePassiveLivenessDetectionModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure cancel:(void (^ _Nullable)(void))cancel;
 - (void)openPassiveLivenessDetectionOn:(UIViewController * _Nonnull)viewController doneLaunching:(void (^ _Nullable)(BOOL, NSString * _Nullable))doneLaunching success:(void (^ _Nullable)(PassiveLivenessDetectionModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure cancel:(void (^ _Nullable)(void))cancel;
 - (void)passiveLivenessDetectionFromImageWithImage:(UIImage * _Nonnull)image success:(void (^ _Nullable)(PassiveLivenessDetectionModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure;
 - (void)compareFaces:(UIImage * _Nonnull)target :(NSArray<UIImage *> * _Nonnull)faces success:(void (^ _Nullable)(FacialComparisonModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure;
-- (void)trainFaceOn:(UIViewController * _Nonnull)viewController for:(NSString * _Nonnull)identifier success:(void (^ _Nullable)(FacialTrainingModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure cancel:(void (^ _Nullable)(void))cancel;
-- (void)loadModelFor:(NSString * _Nonnull)identifier success:(void (^ _Nullable)(FacialRecognitionInitializationModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure;
-- (void)openFacialRecognitionOn:(UIViewController * _Nonnull)viewController for:(NSString * _Nonnull)identifier doneLaunching:(void (^ _Nullable)(BOOL, NSString * _Nullable))doneLaunching success:(void (^ _Nullable)(FacialRecognitionModel * _Nonnull))success failure:(void (^ _Nullable)(NSString * _Nonnull))failure cancel:(void (^ _Nullable)(void))cancel;
 @end
 
 
@@ -531,7 +446,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SybrinBiomet
 
 SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics29SybrinBiometricsConfiguration")
 @interface SybrinBiometricsConfiguration : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull license;
 @property (nonatomic, strong) UIColor * _Nonnull overlayColor;
 @property (nonatomic, strong) UIColor * _Nonnull overlayLabelTextColor;
 @property (nonatomic, strong) UIColor * _Nonnull overlaySubLabelTextColor;
@@ -553,7 +467,7 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics29SybrinBiometricsConfiguration")
 @property (nonatomic) BOOL saveImages;
 @property (nonatomic) BOOL enableOfflinePassiveLiveness;
 @property (nonatomic, copy) NSString * _Nullable customAuthorizationToken;
-- (nonnull instancetype)initWithLicense:(NSString * _Nonnull)license environmentKey:(NSString * _Nonnull)environmentKey OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithEnvironmentKey:(NSString * _Nonnull)environmentKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
