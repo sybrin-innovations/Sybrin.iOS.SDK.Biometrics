@@ -30,6 +30,7 @@ import _SwiftConcurrencyShims
 }
 @objc final public class SybrinBiometricsConfiguration : ObjectiveC.NSObject, Sybrin_iOS_Common.SybrinCommonConfiguration {
   final public var environmentKey: Swift.String
+  @objc final public var localizationConfig: Sybrin_iOS_Biometrics.LocalizationConfig
   @objc final public var overlayColor: UIKit.UIColor
   @objc final public var overlayLabelTextColor: UIKit.UIColor
   @objc final public var overlaySubLabelTextColor: UIKit.UIColor
@@ -146,6 +147,309 @@ public enum Language : Swift.Int, Swift.RawRepresentable {
   public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
+}
+public struct LocalizationText {
+  public let id: Swift.String
+  public let key: Swift.String
+  public let source: Swift.String
+  public let group: Swift.String
+  public let description: Swift.String
+  public let placeholders: [Swift.String]
+  public init(id: Swift.String, key: Swift.String, source: Swift.String, group: Swift.String, description: Swift.String, placeholders: [Swift.String] = [])
+}
+public struct ResolvedLocalizationText {
+  public let id: Swift.String
+  public let key: Swift.String
+  public let source: Swift.String
+  public let value: Swift.String
+  public let overridden: Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class LocalizationConfig : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public init(keyOverrides: [Swift.String : Swift.String] = [:])
+  final public var catalog: [Sybrin_iOS_Biometrics.LocalizationText] {
+    get
+  }
+  final public func resolve(_ text: Sybrin_iOS_Biometrics.LocalizationText) -> Swift.String
+  @objc final public func resolveById(_ id: Swift.String) -> Swift.String
+  @objc final public func resolveByKey(_ key: Swift.String) -> Swift.String
+  @discardableResult
+  final public func overrideTranslation(_ text: Sybrin_iOS_Biometrics.LocalizationText, value: Swift.String) -> Sybrin_iOS_Biometrics.LocalizationConfig
+  @objc @discardableResult
+  final public func overrideById(_ id: Swift.String, value: Swift.String) -> Sybrin_iOS_Biometrics.LocalizationConfig
+  @objc @discardableResult
+  final public func overrideByKey(_ key: Swift.String, value: Swift.String) -> Sybrin_iOS_Biometrics.LocalizationConfig
+  @objc @discardableResult
+  final public func overrideAllById(_ overrides: [Swift.String : Swift.String]) -> Sybrin_iOS_Biometrics.LocalizationConfig
+  @objc @discardableResult
+  final public func overrideAllByKey(_ overrides: [Swift.String : Swift.String]) -> Sybrin_iOS_Biometrics.LocalizationConfig
+  @discardableResult
+  final public func clearOverride(_ text: Sybrin_iOS_Biometrics.LocalizationText) -> Sybrin_iOS_Biometrics.LocalizationConfig
+  @objc @discardableResult
+  final public func clearOverrideById(_ id: Swift.String) -> Sybrin_iOS_Biometrics.LocalizationConfig
+  @objc @discardableResult
+  final public func clearOverrideByKey(_ key: Swift.String) -> Sybrin_iOS_Biometrics.LocalizationConfig
+  final public func hasOverride(_ text: Sybrin_iOS_Biometrics.LocalizationText) -> Swift.Bool
+  @objc final public func toKeyOverrideMap() -> [Swift.String : Swift.String]
+  @objc final public func toIdOverrideMap() -> [Swift.String : Swift.String]
+  final public func resolvedTranslations() -> [Sybrin_iOS_Biometrics.ResolvedLocalizationText]
+  @objc final public func copyConfig() -> Sybrin_iOS_Biometrics.LocalizationConfig
+  @objc final public var cameraPermissionTitle: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var cameraPermissionRationale: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var cameraPermissionButtonOk: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStateNoFace: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStatePositioned: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStateTooMany: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStateTooClose: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStateTooFar: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStateNotCentered: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStateEyesClosed: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStateNotInFrame: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var faceStateLandmarksNotVisible: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var countdownCountingTemplate: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var countdownCapturing: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var processingAnalyzingQuality: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var processingVerifyingLiveness: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var processingErrorGeneric: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var loaderPleaseWait: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var obstructionDialogTitle: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var obstructionDialogBody: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var obstructionDialogProceed: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var obstructionDialogCancel: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var viewModelErrorImageAnalysisFailed: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var viewModelErrorLivenessDetectionFailed: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorAuthTokenInvalid: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorAuthTokenExpired: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorEnvLicenseInvalid: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorEnvConfigurationMissing: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorBiometricsServiceFailed: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorNetworkConnectionError: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorNetworkRequestTimeout: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorCameraInitializationFailed: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyTimeExpired: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyNiceYouGotIt: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyWereDone: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyCloseEyes: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyLookDown: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyLookUp: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyLookAt: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifySmile: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyDontSmile: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyTiltLeft: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyTiltRight: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyTiltUpright: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyTurnLeft: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyTurnRight: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyTurnForward: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyKeepStill: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var notifyTimeRemainingTemplate: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc final public var errorUnknownError: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+public enum BiometricsLocalizationCatalog {
+  public static let cameraPermissionTitle: Sybrin_iOS_Biometrics.LocalizationText
+  public static let cameraPermissionRationale: Sybrin_iOS_Biometrics.LocalizationText
+  public static let cameraPermissionButtonOk: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStateNoFace: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStatePositioned: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStateTooMany: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStateTooClose: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStateTooFar: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStateNotCentered: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStateEyesClosed: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStateNotInFrame: Sybrin_iOS_Biometrics.LocalizationText
+  public static let faceStateLandmarksNotVisible: Sybrin_iOS_Biometrics.LocalizationText
+  public static let countdownCounting: Sybrin_iOS_Biometrics.LocalizationText
+  public static let countdownCapturing: Sybrin_iOS_Biometrics.LocalizationText
+  public static let processingAnalyzingQuality: Sybrin_iOS_Biometrics.LocalizationText
+  public static let processingVerifyingLiveness: Sybrin_iOS_Biometrics.LocalizationText
+  public static let processingErrorGeneric: Sybrin_iOS_Biometrics.LocalizationText
+  public static let loaderPleaseWait: Sybrin_iOS_Biometrics.LocalizationText
+  public static let obstructionDialogTitle: Sybrin_iOS_Biometrics.LocalizationText
+  public static let obstructionDialogBody: Sybrin_iOS_Biometrics.LocalizationText
+  public static let obstructionDialogProceed: Sybrin_iOS_Biometrics.LocalizationText
+  public static let obstructionDialogCancel: Sybrin_iOS_Biometrics.LocalizationText
+  public static let viewModelErrorImageAnalysisFailed: Sybrin_iOS_Biometrics.LocalizationText
+  public static let viewModelErrorLivenessDetectionFailed: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorAuthTokenInvalid: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorAuthTokenExpired: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorEnvLicenseInvalid: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorEnvConfigurationMissing: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorBiometricsServiceFailed: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorNetworkConnectionError: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorNetworkRequestTimeout: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorCameraInitializationFailed: Sybrin_iOS_Biometrics.LocalizationText
+  public static let errorUnknownError: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyTimeExpired: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyNiceYouGotIt: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyWereDone: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyCloseEyes: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyLookDown: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyLookUp: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyLookAt: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifySmile: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyDontSmile: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyTiltLeft: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyTiltRight: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyTiltUpright: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyTurnLeft: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyTurnRight: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyTurnForward: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyKeepStill: Sybrin_iOS_Biometrics.LocalizationText
+  public static let notifyTimeRemainingTemplate: Sybrin_iOS_Biometrics.LocalizationText
+  public static func all() -> [Sybrin_iOS_Biometrics.LocalizationText]
+  public static func requireById(_ id: Swift.String) -> Sybrin_iOS_Biometrics.LocalizationText
+  public static func requireByKey(_ key: Swift.String) -> Sybrin_iOS_Biometrics.LocalizationText
 }
 public enum SybrinErrorCode : Swift.String {
   case renderingFailure

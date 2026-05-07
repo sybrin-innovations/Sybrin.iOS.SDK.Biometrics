@@ -401,6 +401,74 @@ SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics22FacialComparisonResult")
 
 
 
+SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics18LocalizationConfig")
+@interface LocalizationConfig : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithKeyOverrides:(NSDictionary<NSString *, NSString *> * _Nonnull)keyOverrides OBJC_DESIGNATED_INITIALIZER;
+- (NSString * _Nonnull)resolveById:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)resolveByKey:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
+- (LocalizationConfig * _Nonnull)overrideById:(NSString * _Nonnull)id value:(NSString * _Nonnull)value;
+- (LocalizationConfig * _Nonnull)overrideByKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
+- (LocalizationConfig * _Nonnull)overrideAllById:(NSDictionary<NSString *, NSString *> * _Nonnull)overrides;
+- (LocalizationConfig * _Nonnull)overrideAllByKey:(NSDictionary<NSString *, NSString *> * _Nonnull)overrides;
+- (LocalizationConfig * _Nonnull)clearOverrideById:(NSString * _Nonnull)id;
+- (LocalizationConfig * _Nonnull)clearOverrideByKey:(NSString * _Nonnull)key;
+- (NSDictionary<NSString *, NSString *> * _Nonnull)toKeyOverrideMap SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, NSString *> * _Nonnull)toIdOverrideMap SWIFT_WARN_UNUSED_RESULT;
+- (LocalizationConfig * _Nonnull)copyConfig SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, copy) NSString * _Nonnull cameraPermissionTitle;
+@property (nonatomic, copy) NSString * _Nonnull cameraPermissionRationale;
+@property (nonatomic, copy) NSString * _Nonnull cameraPermissionButtonOk;
+@property (nonatomic, copy) NSString * _Nonnull faceStateNoFace;
+@property (nonatomic, copy) NSString * _Nonnull faceStatePositioned;
+@property (nonatomic, copy) NSString * _Nonnull faceStateTooMany;
+@property (nonatomic, copy) NSString * _Nonnull faceStateTooClose;
+@property (nonatomic, copy) NSString * _Nonnull faceStateTooFar;
+@property (nonatomic, copy) NSString * _Nonnull faceStateNotCentered;
+@property (nonatomic, copy) NSString * _Nonnull faceStateEyesClosed;
+@property (nonatomic, copy) NSString * _Nonnull faceStateNotInFrame;
+@property (nonatomic, copy) NSString * _Nonnull faceStateLandmarksNotVisible;
+@property (nonatomic, copy) NSString * _Nonnull countdownCountingTemplate;
+@property (nonatomic, copy) NSString * _Nonnull countdownCapturing;
+@property (nonatomic, copy) NSString * _Nonnull processingAnalyzingQuality;
+@property (nonatomic, copy) NSString * _Nonnull processingVerifyingLiveness;
+@property (nonatomic, copy) NSString * _Nonnull processingErrorGeneric;
+@property (nonatomic, copy) NSString * _Nonnull loaderPleaseWait;
+@property (nonatomic, copy) NSString * _Nonnull obstructionDialogTitle;
+@property (nonatomic, copy) NSString * _Nonnull obstructionDialogBody;
+@property (nonatomic, copy) NSString * _Nonnull obstructionDialogProceed;
+@property (nonatomic, copy) NSString * _Nonnull obstructionDialogCancel;
+@property (nonatomic, copy) NSString * _Nonnull viewModelErrorImageAnalysisFailed;
+@property (nonatomic, copy) NSString * _Nonnull viewModelErrorLivenessDetectionFailed;
+@property (nonatomic, copy) NSString * _Nonnull errorAuthTokenInvalid;
+@property (nonatomic, copy) NSString * _Nonnull errorAuthTokenExpired;
+@property (nonatomic, copy) NSString * _Nonnull errorEnvLicenseInvalid;
+@property (nonatomic, copy) NSString * _Nonnull errorEnvConfigurationMissing;
+@property (nonatomic, copy) NSString * _Nonnull errorBiometricsServiceFailed;
+@property (nonatomic, copy) NSString * _Nonnull errorNetworkConnectionError;
+@property (nonatomic, copy) NSString * _Nonnull errorNetworkRequestTimeout;
+@property (nonatomic, copy) NSString * _Nonnull errorCameraInitializationFailed;
+@property (nonatomic, copy) NSString * _Nonnull notifyTimeExpired;
+@property (nonatomic, copy) NSString * _Nonnull notifyNiceYouGotIt;
+@property (nonatomic, copy) NSString * _Nonnull notifyWereDone;
+@property (nonatomic, copy) NSString * _Nonnull notifyCloseEyes;
+@property (nonatomic, copy) NSString * _Nonnull notifyLookDown;
+@property (nonatomic, copy) NSString * _Nonnull notifyLookUp;
+@property (nonatomic, copy) NSString * _Nonnull notifyLookAt;
+@property (nonatomic, copy) NSString * _Nonnull notifySmile;
+@property (nonatomic, copy) NSString * _Nonnull notifyDontSmile;
+@property (nonatomic, copy) NSString * _Nonnull notifyTiltLeft;
+@property (nonatomic, copy) NSString * _Nonnull notifyTiltRight;
+@property (nonatomic, copy) NSString * _Nonnull notifyTiltUpright;
+@property (nonatomic, copy) NSString * _Nonnull notifyTurnLeft;
+@property (nonatomic, copy) NSString * _Nonnull notifyTurnRight;
+@property (nonatomic, copy) NSString * _Nonnull notifyTurnForward;
+@property (nonatomic, copy) NSString * _Nonnull notifyKeepStill;
+@property (nonatomic, copy) NSString * _Nonnull notifyTimeRemainingTemplate;
+@property (nonatomic, copy) NSString * _Nonnull errorUnknownError;
+@end
+
+
 SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics33LookDownLivenessDetectionQuestion")
 @interface LookDownLivenessDetectionQuestion : LivenessDetectionQuestion
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -446,6 +514,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SybrinBiomet
 
 SWIFT_CLASS("_TtC21Sybrin_iOS_Biometrics29SybrinBiometricsConfiguration")
 @interface SybrinBiometricsConfiguration : NSObject
+@property (nonatomic, strong) LocalizationConfig * _Nonnull localizationConfig;
 @property (nonatomic, strong) UIColor * _Nonnull overlayColor;
 @property (nonatomic, strong) UIColor * _Nonnull overlayLabelTextColor;
 @property (nonatomic, strong) UIColor * _Nonnull overlaySubLabelTextColor;
